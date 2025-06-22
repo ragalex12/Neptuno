@@ -577,15 +577,7 @@ def save_csv_config():
 
 @app.route("/select_folder", methods=["POST"])
 def select_folder():
-    """Mostrar diálogo local para elegir carpeta de salida y guardarla."""
-    script = Path(__file__).with_name("choose_dir.py")
-    try:
-        result = subprocess.run(
-            [sys.executable, str(script)], capture_output=True, text=True, timeout=30
-        )
-        if result.returncode != 0:
-            raise RuntimeError(result.stderr.strip())
-        carpeta = result.stdout.strip()
+
     except Exception as exc:
         return jsonify(error=f"No se pudo abrir el diálogo: {exc}"), 500
 
