@@ -16,7 +16,7 @@ import logging
 from subprocess import CalledProcessError
 import hashlib, random, time, struct
 import xml.etree.ElementTree as ET
-from tkinter import Tk, filedialog
+
 from flask import Flask, jsonify, render_template, request
 import oracledb
 
@@ -577,12 +577,7 @@ def save_csv_config():
 
 @app.route("/select_folder", methods=["POST"])
 def select_folder():
-    """Mostrar diálogo para elegir carpeta de salida y guardarla."""
-    try:
-        root = Tk()
-        root.withdraw()
-        carpeta = filedialog.askdirectory(title="Seleccione carpeta de salida")
-        root.destroy()
+
     except Exception as exc:
         return jsonify(error=f"No se pudo abrir el diálogo: {exc}"), 500
 

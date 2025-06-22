@@ -1,7 +1,10 @@
 // Vanilla JS functions replacing previous jQuery based logic
 
 function q(sel) { return document.querySelector(sel); }
-function qa(sel){ return Array.from(document.querySelectorAll(sel)); }
+function qa(sel){
+  if (typeof sel === 'string') return Array.from(document.querySelectorAll(sel));
+  return Array.from(sel);
+}
 
 function toggleActive(e){ e.currentTarget.classList.toggle('active'); }
 
