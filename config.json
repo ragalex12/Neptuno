@@ -1,0 +1,590 @@
+{
+  "database": {
+    "tipo_conexion": "BELLAGIO",
+    "servidor": "10.10.205.4",
+    "puerto": "1521",
+    "base_datos": "rproods",
+    "usuario": "reportuser",
+    "password": "report"
+  },
+  "csv": {
+    "ruta": "C:/Neptuno/Salida",
+    "delimiter": ","
+  },
+  "sid_generator": {
+    "item_sid_mode": "upc",
+    "style_sid_mode": "desc1"
+  },
+  "inventory": {
+    "campos_maestros": [
+      {
+        "visual": "UPC",
+        "rpro": "local_upc",
+        "len": 18,
+        "section": "INVN"
+      },
+      {
+        "visual": "Description 1",
+        "rpro": "description1",
+        "len": 30,
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "Attr",
+        "rpro": "attr",
+        "len": 8,
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "Size",
+        "rpro": "siz",
+        "len": 8,
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "Description 2",
+        "rpro": "description2",
+        "len": 30,
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "DCS",
+        "rpro": "dcs_code",
+        "len": 9,
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "Vendor Code",
+        "rpro": "vend_code",
+        "len": 6,
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "Description 3",
+        "rpro": "description3",
+        "len": 30,
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "Description 4",
+        "rpro": "description4",
+        "len": 30,
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "Aux 7",
+        "rpro": "udf_13",
+        "len": 50,
+        "section": "INVN_SBS_SUPPL"
+      },
+      {
+        "visual": "Aux 5",
+        "rpro": "udf_11",
+        "len": 50,
+        "section": "INVN_SBS_SUPPL"
+      },
+      {
+        "visual": "Long Description",
+        "rpro": "long_description",
+        "len": 2000,
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "Aux 8",
+        "rpro": "udf_14",
+        "len": 50,
+        "section": "INVN_SBS_SUPPL"
+      },
+      {
+        "visual": "Regional",
+        "rpro": "regional",
+        "len": 1,
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "ALU",
+        "rpro": "alu",
+        "len": 20,
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "UDF 2",
+        "rpro": "udf_2",
+        "len": 50,
+        "section": "INVN_SBS_SUPPL"
+      },
+      {
+        "visual": "UDF 3",
+        "rpro": "udf_3",
+        "len": 50,
+        "section": "INVN_SBS_SUPPL"
+      },
+      {
+        "visual": "UDF 4",
+        "rpro": "udf_4",
+        "len": 50,
+        "section": "INVN_SBS_SUPPL"
+      },
+      {
+        "visual": "UDF 5",
+        "rpro": "udf_5",
+        "len": 50,
+        "section": "INVN_SBS_SUPPL"
+      },
+      {
+        "visual": "UDF 6",
+        "rpro": "udf_6",
+        "len": 50,
+        "section": "INVN_SBS_SUPPL"
+      },
+      {
+        "visual": "Aux 1",
+        "rpro": "udf_7",
+        "len": 50,
+        "section": "INVN_SBS_SUPPL"
+      },
+      {
+        "visual": "Aux 2",
+        "rpro": "udf_8",
+        "len": 50,
+        "section": "INVN_SBS_SUPPL"
+      },
+      {
+        "visual": "Aux 3",
+        "rpro": "udf_9",
+        "len": 50,
+        "section": "INVN_SBS_SUPPL"
+      },
+      {
+        "visual": "Aux 4",
+        "rpro": "udf_10",
+        "len": 50,
+        "section": "INVN_SBS_SUPPL"
+      },
+      {
+        "visual": "Aux 6",
+        "rpro": "udf_12",
+        "len": 50,
+        "section": "INVN_SBS_SUPPL"
+      },
+      {
+        "visual": "Aux 9",
+        "rpro": "udf_15",
+        "len": 50,
+        "section": "INVN_SBS_SUPPL"
+      },
+      {
+        "visual": "Aux 10",
+        "rpro": "udf_16",
+        "len": 50,
+        "section": "INVN_SBS_SUPPL"
+      },
+      {
+        "visual": "Aux 11",
+        "rpro": "udf_17",
+        "len": 50,
+        "section": "INVN_SBS_SUPPL"
+      },
+      {
+        "visual": "Aux 12",
+        "rpro": "udf_18",
+        "len": 50,
+        "section": "INVN_SBS_SUPPL"
+      },
+      {
+        "visual": "Aux 13",
+        "rpro": "udf_19",
+        "len": 50,
+        "section": "INVN_SBS_SUPPL"
+      },
+      {
+        "visual": "Aux 14",
+        "rpro": "udf_20",
+        "len": 50,
+        "section": "INVN_SBS_SUPPL"
+      },
+      {
+        "visual": "Aux 15",
+        "rpro": "udf_21",
+        "len": 50,
+        "section": "INVN_SBS_SUPPL"
+      },
+      {
+        "visual": "Text1",
+        "rpro": "text1",
+        "len": 255,
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "Text2",
+        "rpro": "text2",
+        "len": 255,
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "Text3",
+        "rpro": "text3",
+        "len": 255,
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "Text4",
+        "rpro": "text4",
+        "len": 255,
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "Text5",
+        "rpro": "text5",
+        "len": 255,
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "Text6",
+        "rpro": "text6",
+        "len": 255,
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "Text7",
+        "rpro": "text7",
+        "len": 255,
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "Text8",
+        "rpro": "text8",
+        "len": 255,
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "Text9",
+        "rpro": "text9",
+        "len": 255,
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "Text10",
+        "rpro": "text10",
+        "len": 255,
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "First Price",
+        "rpro": "fst_price",
+        "len": 15,
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "Frmr Price",
+        "rpro": "markdown_price",
+        "len": 15,
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "Qty Decimals",
+        "rpro": "use_qty_decimals",
+        "len": 1,
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "UnOrderable",
+        "rpro": "unorderable",
+        "len": 1,
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "Units/Case",
+        "rpro": "qty_per_case",
+        "len": 10,
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "Cost",
+        "rpro": "cost",
+        "len": 16,
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "ext_Flag",
+        "rpro": "ext_flag",
+        "len": 1,
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "image 1",
+        "rpro": "image",
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "image 2",
+        "rpro": "image2",
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "image 3",
+        "rpro": "image3",
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "image 4",
+        "rpro": "image4",
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "image 5",
+        "rpro": "image5",
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "image 6",
+        "rpro": "image6",
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "image 7",
+        "rpro": "image7",
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "image 8",
+        "rpro": "image8",
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "image 9",
+        "rpro": "image9",
+        "section": "INVN_SBS"
+      },
+      {
+        "visual": "image 10",
+        "rpro": "image10",
+        "section": "INVN_SBS"
+      }
+    ],
+    "configuracion": [
+      {
+        "rpro": "local_upc",
+        "visual": "UPC",
+        "pos": 0
+      },
+      {
+        "rpro": "description1",
+        "visual": "Description 1",
+        "pos": 1
+      },
+      {
+        "rpro": "attr",
+        "visual": "Attr",
+        "pos": 2
+      },
+      {
+        "rpro": "siz",
+        "visual": "Size",
+        "pos": 3
+      },
+      {
+        "rpro": "description2",
+        "visual": "Description 2",
+        "pos": 4
+      },
+      {
+        "rpro": "dcs_code",
+        "visual": "DCS",
+        "pos": 5
+      },
+      {
+        "rpro": "vend_code",
+        "visual": "Vendor Code",
+        "pos": 6
+      },
+      {
+        "rpro": "description3",
+        "visual": "Description 3",
+        "pos": 7
+      },
+      {
+        "rpro": "description4",
+        "visual": "Description 4",
+        "pos": 8
+      },
+      {
+        "rpro": "udf_13",
+        "visual": "Aux 7",
+        "pos": 9
+      },
+      {
+        "rpro": "udf_11",
+        "visual": "Aux 5",
+        "pos": 10
+      },
+      {
+        "rpro": "long_description",
+        "visual": "Long Description",
+        "pos": 11
+      },
+      {
+        "rpro": "udf_14",
+        "visual": "Aux 8",
+        "pos": 12
+      },
+      {
+        "rpro": "regional",
+        "visual": "Regional",
+        "pos": 13
+      }
+    ]
+  },
+  "transfer_orders": {
+    "campos_maestros": [
+      {
+        "visual": "Subsidiary",
+        "rpro": "sbs_no",
+        "section": "TO",
+        "len": 5
+      },
+      {
+        "visual": "Store",
+        "rpro": "store_no",
+        "section": "TO",
+        "len": 5
+      },
+      {
+        "visual": "Number",
+        "rpro": "to_no",
+        "section": "TO",
+        "len": 8
+      },
+      {
+        "visual": "VAT",
+        "rpro": "use_vat",
+        "section": "TO",
+        "len": 1
+      },
+      {
+        "visual": "created date",
+        "rpro": "created_date",
+        "section": "TO",
+        "len": "Fecha"
+      },
+      {
+        "visual": "active date",
+        "rpro": "activate_date",
+        "section": "TO",
+        "len": "Fecha"
+      },
+      {
+        "visual": "associate",
+        "rpro": "createdby_empl_name",
+        "section": "TO",
+        "len": 10
+      },
+      {
+        "visual": "Note",
+        "rpro": "note",
+        "section": "TO",
+        "len": 255
+      },
+      {
+        "visual": "Notes 1",
+        "rpro": "notes1",
+        "section": "TO",
+        "len": 30
+      },
+      {
+        "visual": "Notes 2",
+        "rpro": "notes2",
+        "section": "TO",
+        "len": 30
+      },
+      {
+        "visual": "reason code",
+        "rpro": "doc_reason_code",
+        "section": "TO",
+        "len": 5
+      },
+      {
+        "visual": "transfer reason",
+        "rpro": "trans_reason",
+        "section": "TO",
+        "len": 10
+      },
+      {
+        "visual": "Upc",
+        "rpro": "upc",
+        "section": "INVN_BASE_ITEM",
+        "len": 18
+      },
+      {
+        "visual": "Qty",
+        "rpro": "ord_qty",
+        "section": "INVN_BASE_ITEM",
+        "len": 10
+      },
+      {
+        "visual": "Precio",
+        "rpro": "price",
+        "section": "INVN_BASE_ITEM",
+        "len": 10
+      },
+      {
+        "visual": "RecordTypeH",
+        "rpro": "record_type_h",
+        "section": "TO",
+        "len": 1
+      },
+      {
+        "visual": "RecordTypeI",
+        "rpro": "record_type_i",
+        "section": "INVN_BASE_ITEM",
+        "len": 1
+      }
+    ],
+    "configuracion": {
+      "header": [
+        {
+          "rpro": "record_type_h",
+          "visual": "RecordTypeH",
+          "pos": 0
+        },
+        {
+          "rpro": "sbs_no",
+          "visual": "Subsidiary",
+          "pos": 1
+        },
+        {
+          "rpro": "store_no",
+          "visual": "Store",
+          "pos": 2
+        },
+        {
+          "rpro": "to_no",
+          "visual": "Number",
+          "pos": 3
+        }
+      ],
+      "detail": [
+        {
+          "rpro": "record_type_i",
+          "visual": "RecordTypeI",
+          "pos": 0
+        },
+        {
+          "rpro": "upc",
+          "visual": "Upc",
+          "pos": 1
+        },
+        {
+          "rpro": "ord_qty",
+          "visual": "Qty",
+          "pos": 2
+        },
+        {
+          "rpro": "price",
+          "visual": "Precio",
+          "pos": 3
+        }
+      ]
+    }
+  }
+}
