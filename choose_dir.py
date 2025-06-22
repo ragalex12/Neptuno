@@ -6,3 +6,4 @@ root.withdraw()
 folder = filedialog.askdirectory(title='Seleccione carpeta de salida')
 root.destroy()
 print(folder)
+
