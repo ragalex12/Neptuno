@@ -15,7 +15,17 @@ import csv
 import logging
 from subprocess import CalledProcessError
 import hashlib, random, time, struct
+import xml.etree.ElementTree as ET
+from tkinter import Tk, filedialog
+from flask import Flask, jsonify, render_template, request
+import oracledb
+
 _ONE_E18 = 1_000_000_000_000_000_000
+
+BASE = Path(__file__).resolve().parent
+CONFIG_FILE = BASE / "config.json"
+
+app = Flask(__name__)
 
 
 
@@ -47,7 +57,7 @@ def _read_config() -> dict:
         return {}
 
 def _write_config(data: dict):
-
+    CONFIG_FILE.write_text(json.dumps(data, indent=2), encoding="utf-8")
 
 def _load_section(keys: list[str], default):
     data = _read_config()
@@ -77,6 +87,14 @@ def save_csv_cfg(cfg: Dict[str, Any]):
 
 def load_sid_cfg() -> Dict[str, str]:
     return _load_section(["sid_generator"], DEFAULT_SID_CFG)
+
+
+def db_cfg() -> Dict[str, Any]:
+    return _load_section(["database"], {})
+
+
+def maestros() -> List[Dict[str, Any]]:
+    return _load_section(["inventory", "campos_maestros"], [])
 
 
 
@@ -510,7 +528,7 @@ def guardar_config_to():
         })
 
     # 5) Guardo la configuración completa
-
+    config = {"header": header_list, "detail": detail_list}
     _save_section(["transfer_orders", "configuracion"], config)
 
     return jsonify(ok=True)
@@ -607,7 +625,15 @@ def sid_config_post():
 @app.route("/guardar_config", methods=["POST"])
 def guardar_config():
     campos = request.form.getlist("campos[]")
-    cat = {c["rpro"]: c for c in maestros()}
+    catalogo = {c["rpro"]: c for c in maestros()}
+    nueva = []
+    for idx, rpro in enumerate(campos):
+        m = catalogo.get(rpro, {})
+        nueva.append({
+            "rpro": rpro,
+            "visual": m.get("visual", rpro),
+            "pos": idx
+        })
 
     _save_section(["inventory", "configuracion"], nueva)
     return jsonify(ok=True)
