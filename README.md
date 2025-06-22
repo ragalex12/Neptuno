@@ -10,6 +10,7 @@ Esta aplicación es un backend escrito en **Python** con el framework **Flask** 
 - **Selección de carpeta de salida y delimitador**: se guarda en `ruta_descarga.json` la ruta donde se almacenarán los XML generados y el delimitador a usar al leer los CSV.
 - **Conexión a Oracle**: los datos de conexión (host, puerto, servicio, usuario y contraseña) se almacenan en `db_config.json`. La aplicación permite probar la conexión antes de guardarla.
 - **Generador de SID**: soporta distintos modos para obtener `item_sid` y `style_sid` (por UPC, a partir de las descripciones o aleatorio). La configuración se mantiene en `sid_generator.json`.
+- **Configuración general**: el archivo `config.json` se encuentra en el directorio `config/`.
 - **Interfaz web**: se accede a la ruta `/` donde se muestran dos pestañas: *Inventory* y *Transfer Orders*. Cada pestaña contiene formularios para cargar el CSV, configurar campos y ejecutar la generación de XML.
 
 ## Endpoints relevantes
@@ -33,6 +34,7 @@ Esta aplicación es un backend escrito en **Python** con el framework **Flask** 
 - **db_config.json** – Parámetros de conexión a Oracle.
 - **sid_generator.json** – Preferencias para el cálculo de SID.
 - **ruta_descarga.json** – Carpeta y delimitador predeterminados para los CSV.
+- **config/config.json** – Configuración general de la aplicación.
 
 ## Requisitos
 
