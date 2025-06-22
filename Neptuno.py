@@ -11,13 +11,7 @@ from pathlib import Path
 from typing import Any, Dict, List
 from datetime import datetime
 import csv
-import xml.etree.ElementTree as ET
-from flask import send_file  # si quieres devolver directamente el XML
-from json import JSONDecodeError
-import pandas as pd
-from flask import Flask, jsonify, render_template, request
-import oracledb
-from tkinter import Tk, filedialog
+
 import logging
 from subprocess import CalledProcessError
 import hashlib, random, time, struct
@@ -41,15 +35,6 @@ if not lib_dir:
 oracledb.init_oracle_client(lib_dir=lib_dir)
 
 
-
-# Mantener constantes para compatibilidad con nombres anteriores
-CFG_USR      = CONFIG_FILE
-CFG_MAS      = CONFIG_FILE
-CFG_OUT      = CONFIG_FILE
-CFG_DB       = CONFIG_FILE
-SID_CFG_FILE = CONFIG_FILE
-CFG_TO       = CONFIG_FILE
-CFG_MAS_TO   = CONFIG_FILE
 
 DEFAULT_SID_CFG: Dict[str, str] = {"item_sid_mode": "upc", "style_sid_mode": "desc1"}
 
@@ -93,8 +78,7 @@ def save_csv_cfg(cfg: Dict[str, Any]):
 def load_sid_cfg() -> Dict[str, str]:
     return _load_section(["sid_generator"], DEFAULT_SID_CFG)
 
-def save_sid_cfg(cfg: Dict[str, str]):
-    _save_section(["sid_generator"], cfg)
+
 
 def plantilla() -> List[Dict[str, Any]]:
     data = _load_section(["inventory", "configuracion"], [])
