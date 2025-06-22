@@ -11,13 +11,7 @@ from pathlib import Path
 from typing import Any, Dict, List
 from datetime import datetime
 import csv
-import xml.etree.ElementTree as ET
-from flask import send_file  # si quieres devolver directamente el XML
-from json import JSONDecodeError
-import pandas as pd
-from flask import Flask, jsonify, render_template, request
-import oracledb
-from tkinter import Tk, filedialog
+
 import logging
 from subprocess import CalledProcessError
 import hashlib, random, time, struct
@@ -40,61 +34,54 @@ if not lib_dir:
     raise RuntimeError("No se encontró Oracle Instant Client (oci.dll).")
 oracledb.init_oracle_client(lib_dir=lib_dir)
 
-# --- Rutas de configuración ---
-BASE            = Path(__file__).resolve().parent
-CFG_DIR         = BASE / "config"
-CFG_USR         = BASE / "configuracion.json"
-CFG_MAS         = BASE / "campos_maestros.json"
-CFG_OUT         = BASE / "ruta_descarga.json"    # {'ruta':..., 'delimiter':...}
-CFG_DB          = BASE / "db_config.json"
-SID_CFG_FILE    = BASE / "sid_generator.json"
-TPL_DIR         = BASE / "Templates"
-CFG_TO          = BASE / "configuracion_to.json"
-CFG_MAS_TO      = BASE / "campos_maestros_to.json"
-APP_CFG         = CFG_DIR / "config.json"
+
 
 DEFAULT_SID_CFG: Dict[str, str] = {"item_sid_mode": "upc", "style_sid_mode": "desc1"}
 
-app = Flask(__name__, template_folder=str(TPL_DIR))
 
-# --- Utilidades JSON ---
-def _load(path: Path, default):
+# --- Utilidades JSON para archivo unificado ---
+def _read_config() -> dict:
     try:
-        return json.loads(path.read_text("utf-8"))
+        return json.loads(CONFIG_FILE.read_text("utf-8"))
     except FileNotFoundError:
-        path.write_text(json.dumps(default, indent=2, ensure_ascii=False), "utf-8")
-        return default
+        return {}
 
-def _save(path: Path, data):
-    path.write_text(json.dumps(data, indent=2, ensure_ascii=False), "utf-8")
+def _write_config(data: dict):
+
+
+def _load_section(keys: list[str], default):
+    data = _read_config()
+    cur = data
+    for k in keys[:-1]:
+        cur = cur.setdefault(k, {})
+    if keys[-1] not in cur:
+        cur[keys[-1]] = default
+        _write_config(data)
+        return default
+    return cur[keys[-1]]
+
+def _save_section(keys: list[str], value):
+    data = _read_config()
+    cur = data
+    for k in keys[:-1]:
+        cur = cur.setdefault(k, {})
+    cur[keys[-1]] = value
+    _write_config(data)
 
 # --- Configuraciones ---
 def load_csv_cfg() -> Dict[str, Any]:
-    return _load(CFG_OUT, {"ruta": str(BASE / "Salida"), "delimiter": ","})
+    return _load_section(["csv"], {"ruta": str(BASE / "Salida"), "delimiter": ","})
 
 def save_csv_cfg(cfg: Dict[str, Any]):
-    _save(CFG_OUT, cfg)
+    _save_section(["csv"], cfg)
 
 def load_sid_cfg() -> Dict[str, str]:
-    return _load(SID_CFG_FILE, DEFAULT_SID_CFG)
+    return _load_section(["sid_generator"], DEFAULT_SID_CFG)
 
-def save_sid_cfg(cfg: Dict[str, str]):
-    _save(SID_CFG_FILE, cfg)
 
-def load_app_cfg() -> Dict[str, Any]:
-    return _load(APP_CFG, {})
-
-def save_app_cfg(cfg: Dict[str, Any]):
-    _save(APP_CFG, cfg)
-
-def db_cfg() -> Dict[str, Any]:
-    return _load(CFG_DB, {})
-
-def maestros() -> List[Dict[str, Any]]:
-    return _load(CFG_MAS, [])
 
 def plantilla() -> List[Dict[str, Any]]:
-    data = _load(CFG_USR, [])
+    data = _load_section(["inventory", "configuracion"], [])
     for i, d in enumerate(data):
         if isinstance(d, dict):
             d.setdefault("pos", i)
@@ -105,42 +92,12 @@ def ruta_desc() -> str:
     return load_csv_cfg().get("ruta", str(BASE / "Salida"))
 
 def load_campos_maestros_to() -> list[dict]:
-    """
-    Carga el maestro de campos disponibles para Transfer Orders.
-    Busca primero en ./campos_maestros_to.json, luego en ./config/campos_maestros_to.json.
-    """
-    base = Path(__file__).parent
-    candidates = [
-        base / "campos_maestros_to.json",
-        base / "config" / "campos_maestros_to.json"
-    ]
-    for path in candidates:
-        if path.exists():
-            print(f"DEBUG: cargando campos maestros TO desde: {path}")  # Línea de debug
-            try:
-                with open(path, encoding="utf-8") as f:
-                    data = json.load(f)
-                print(f"DEBUG: número de campos cargados: {len(data)}")
-                return data
-            except Exception as e:
-                print(f"ERROR al parsear {path}: {e}")
-                return []
-    # Si llegamos aquí, ninguno existe
-    msg = "No se encontró 'campos_maestros_to.json' en la raíz ni en /config/"
-    print("ERROR:", msg)
-    raise FileNotFoundError(msg)
+    """Devuelve el catálogo de campos para Transfer Orders."""
+    return _load_section(["transfer_orders", "campos_maestros"], [])
 
 def load_plantilla_to() -> dict:
-    """
-    Lee configuracion_to.json y devuelve un dict con dos listas:
-    { 'header': [ {rpro,visual,section,pos}, … ],
-      'detail': [ {rpro,visual,section,pos}, … ] }
-    """
-    path = CFG_TO
-    if not path.exists():
-        return {'header': [], 'detail': []}
-
-    cfg = json.loads(path.read_text(encoding='utf-8'))
+    """Obtiene la configuración actual de Transfer Orders con objetos completos."""
+    cfg = _load_section(["transfer_orders", "configuracion"], {"header": [], "detail": []})
     maestros = load_campos_maestros_to()
 
     header = []
@@ -169,37 +126,8 @@ def load_plantilla_to() -> dict:
 
 
 def load_config_to() -> dict[str, list]:
-    """
-    Carga la configuración seleccionada por el usuario para Transfer Orders.
-    - Si el archivo no existe, lo crea con listas vacías.
-    - Si existe pero está vacío o corrupto, devuelve listas vacías.
-    """
-    path = Path(__file__).parent / "configuracion_to.json"
-    default = {"header": [], "detail": []}
-
-    # Si no existe, crearlo con valor por defecto
-    if not path.exists():
-        try:
-            with open(path, "w", encoding="utf-8") as f:
-                json.dump(default, f, ensure_ascii=False, indent=2)
-        except Exception:
-            pass  # Si falla la creación, seguimos con default
-        return default
-
-    # Si existe, intentar leerlo
-    try:
-        with open(path, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        # Validar que tenga ambas claves
-        if not isinstance(data, dict):
-            return default
-        return {
-            "header": data.get("header", []),
-            "detail": data.get("detail", [])
-        }
-    except (JSONDecodeError, ValueError):
-        # Archivo vacío o JSON mal formado
-        return default
+    """Carga la configuración de Transfer Orders (solo listas)."""
+    return _load_section(["transfer_orders", "configuracion"], {"header": [], "detail": []})
 
 
 # --- Nuevo Calculo Item_Sid & Style_Sid ---
@@ -582,11 +510,8 @@ def guardar_config_to():
         })
 
     # 5) Guardo la configuración completa
-    config = {
-        "header": header_list,
-        "detail": detail_list
-    }
-    _save(CFG_TO, config)
+
+    _save_section(["transfer_orders", "configuracion"], config)
 
     return jsonify(ok=True)
 
@@ -643,8 +568,8 @@ def save_connection():
         if not data.get(field):
             return jsonify(ok=False, error=f"Campo requerido: {field}"), 400
 
-    data.setdefault("tipo_conexion", "oracle")
-    _save(CFG_DB, data)
+
+    _save_section(["database"], data)
 
     # ④ Devolvemos 200 y ok=True para que tu JS lo reconozca como éxito
     return jsonify(ok=True)
@@ -683,16 +608,12 @@ def sid_config_post():
 def guardar_config():
     campos = request.form.getlist("campos[]")
     cat = {c["rpro"]: c for c in maestros()}
-    nueva = []
-    for pos, rpro in enumerate(campos):
-        m = cat.get(rpro, {"rpro": rpro, "visual": rpro})
-        nueva.append({"rpro": m["rpro"], "visual": m["visual"], "pos": pos})
-    _save(CFG_USR, nueva)
+
+    _save_section(["inventory", "configuracion"], nueva)
     return jsonify(ok=True)
 
 
 # Corrección en función generar_xml() para asignación estricta de nodos
-from datetime import datetime
 
 def generar_xml(csv_file_stream, output_path, plantilla_cfg, delimiter):
     csv_file_stream.seek(0)
@@ -878,7 +799,7 @@ def generar():
     campos_plant = [c["rpro"] for c in plantilla_cfg]
     total_cols   = len(campos_plant)
 
-    # Metadatos de longitud máxima por campo (campos_maestros.json)
+    # Metadatos de longitud máxima por campo (catálogo en config/config.json)
     campos_meta = {c["rpro"]: c.get("len") for c in maestros()}
 
     # ---------- 3) Validaciones línea a línea ----------

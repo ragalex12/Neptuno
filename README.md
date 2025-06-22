@@ -6,11 +6,7 @@ Esta aplicación es un backend escrito en **Python** con el framework **Flask** 
 
 - **Generación de XML de inventario**: a partir de un CSV se construye un documento `<DOCUMENT>` con nodos `<INVENTORY>` y `<INVN_SBS>` utilizando los campos seleccionados por el usuario.
 - **Generación de Transfer Orders**: se aceptan archivos CSV/TXT con formato especial para crear XML de órdenes de transferencia. Se valida la estructura de las líneas tipo *Header* e *Item* y se consultan datos adicionales en Oracle.
-- **Configuración de mapeo de campos**: la interfaz permite seleccionar y ordenar los campos disponibles (`campos_maestros.json`) que se emplearán al leer el CSV. Las configuraciones se guardan en `configuracion.json` y `configuracion_to.json`.
-- **Selección de carpeta de salida y delimitador**: se guarda en `ruta_descarga.json` la ruta donde se almacenarán los XML generados y el delimitador a usar al leer los CSV.
-- **Conexión a Oracle**: los datos de conexión (host, puerto, servicio, usuario y contraseña) se almacenan en `db_config.json`. La aplicación permite probar la conexión antes de guardarla.
-- **Generador de SID**: soporta distintos modos para obtener `item_sid` y `style_sid` (por UPC, a partir de las descripciones o aleatorio). La configuración se mantiene en `sid_generator.json`.
-- **Configuración general**: el archivo `config.json` se encuentra en el directorio `config/`.
+
 - **Interfaz web**: se accede a la ruta `/` donde se muestran dos pestañas: *Inventory* y *Transfer Orders*. Cada pestaña contiene formularios para cargar el CSV, configurar campos y ejecutar la generación de XML.
 
 ## Endpoints relevantes
@@ -29,12 +25,7 @@ Esta aplicación es un backend escrito en **Python** con el framework **Flask** 
 
 - **Neptuno.py** – Script principal que define el servidor Flask y toda la lógica de negocio.
 - **Templates/** – Contiene las plantillas `index.html` y `home.html` que conforman la interfaz web.
-- **campos_maestros.json** y **campos_maestros_to.json** – Catálogos de campos disponibles para inventario y Transfer Orders.
-- **configuracion.json** y **configuracion_to.json** – Guardan las selecciones de campos realizadas por el usuario.
-- **db_config.json** – Parámetros de conexión a Oracle.
-- **sid_generator.json** – Preferencias para el cálculo de SID.
-- **ruta_descarga.json** – Carpeta y delimitador predeterminados para los CSV.
-- **config/config.json** – Configuración general de la aplicación.
+
 
 ## Requisitos
 
