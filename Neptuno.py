@@ -89,6 +89,11 @@ def load_sid_cfg() -> Dict[str, str]:
     return _load_section(["sid_generator"], DEFAULT_SID_CFG)
 
 
+def save_sid_cfg(cfg: Dict[str, str]):
+    """Persistir configuracion del generador de SID."""
+    _save_section(["sid_generator"], cfg)
+
+
 def db_cfg() -> Dict[str, Any]:
     return _load_section(["database"], {})
 
