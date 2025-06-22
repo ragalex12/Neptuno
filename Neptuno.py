@@ -575,7 +575,11 @@ def save_csv_config():
     save_csv_cfg(cfg)
     return "", 204
 
-@app.route("/select_folder", methods=["POST"])
+            [sys.executable, str(script)],
+            capture_output=True,
+            text=True,
+            cwd=script.parent,
+            timeout=30,
 def select_folder():
 
     except Exception as exc:
