@@ -15,11 +15,9 @@ import xml.etree.ElementTree as ET
 from flask import send_file  # si quieres devolver directamente el XML
 from json import JSONDecodeError
 import pandas as pd
-import xml.etree.ElementTree as ET
 from flask import Flask, jsonify, render_template, request
 import oracledb
 from tkinter import Tk, filedialog
-import io              
 import logging
 from subprocess import CalledProcessError
 import hashlib, random, time, struct
@@ -42,10 +40,7 @@ if not lib_dir:
     raise RuntimeError("No se encontró Oracle Instant Client (oci.dll).")
 oracledb.init_oracle_client(lib_dir=lib_dir)
 
-# --- Rutas de configuración ---
-BASE         = Path(__file__).resolve().parent
-CONFIG_FILE  = BASE / "config.json"
-TPL_DIR      = BASE / "Templates"
+
 
 # Mantener constantes para compatibilidad con nombres anteriores
 CFG_USR      = CONFIG_FILE
@@ -58,7 +53,6 @@ CFG_MAS_TO   = CONFIG_FILE
 
 DEFAULT_SID_CFG: Dict[str, str] = {"item_sid_mode": "upc", "style_sid_mode": "desc1"}
 
-app = Flask(__name__, template_folder=str(TPL_DIR))
 
 # --- Utilidades JSON para archivo unificado ---
 def _read_config() -> dict:
@@ -68,7 +62,7 @@ def _read_config() -> dict:
         return {}
 
 def _write_config(data: dict):
-    CONFIG_FILE.write_text(json.dumps(data, indent=2, ensure_ascii=False), "utf-8")
+
 
 def _load_section(keys: list[str], default):
     data = _read_config()
@@ -101,12 +95,6 @@ def load_sid_cfg() -> Dict[str, str]:
 
 def save_sid_cfg(cfg: Dict[str, str]):
     _save_section(["sid_generator"], cfg)
-
-def db_cfg() -> Dict[str, Any]:
-    return _load_section(["database"], {})
-
-def maestros() -> List[Dict[str, Any]]:
-    return _load_section(["inventory", "campos_maestros"], [])
 
 def plantilla() -> List[Dict[str, Any]]:
     data = _load_section(["inventory", "configuracion"], [])
@@ -538,10 +526,7 @@ def guardar_config_to():
         })
 
     # 5) Guardo la configuración completa
-    config = {
-        "header": header_list,
-        "detail": detail_list
-    }
+
     _save_section(["transfer_orders", "configuracion"], config)
 
     return jsonify(ok=True)
@@ -599,7 +584,7 @@ def save_connection():
         if not data.get(field):
             return jsonify(ok=False, error=f"Campo requerido: {field}"), 400
 
-    data.setdefault("tipo_conexion", "oracle")
+
     _save_section(["database"], data)
 
     # ④ Devolvemos 200 y ok=True para que tu JS lo reconozca como éxito
@@ -639,16 +624,12 @@ def sid_config_post():
 def guardar_config():
     campos = request.form.getlist("campos[]")
     cat = {c["rpro"]: c for c in maestros()}
-    nueva = []
-    for pos, rpro in enumerate(campos):
-        m = cat.get(rpro, {"rpro": rpro, "visual": rpro})
-        nueva.append({"rpro": m["rpro"], "visual": m["visual"], "pos": pos})
+
     _save_section(["inventory", "configuracion"], nueva)
     return jsonify(ok=True)
 
 
 # Corrección en función generar_xml() para asignación estricta de nodos
-from datetime import datetime
 
 def generar_xml(csv_file_stream, output_path, plantilla_cfg, delimiter):
     csv_file_stream.seek(0)
@@ -834,7 +815,7 @@ def generar():
     campos_plant = [c["rpro"] for c in plantilla_cfg]
     total_cols   = len(campos_plant)
 
-    # Metadatos de longitud máxima por campo (campos_maestros.json)
+    # Metadatos de longitud máxima por campo (catálogo en config/config.json)
     campos_meta = {c["rpro"]: c.get("len") for c in maestros()}
 
     # ---------- 3) Validaciones línea a línea ----------

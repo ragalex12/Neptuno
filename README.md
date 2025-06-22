@@ -6,10 +6,7 @@ Esta aplicación es un backend escrito en **Python** con el framework **Flask** 
 
 - **Generación de XML de inventario**: a partir de un CSV se construye un documento `<DOCUMENT>` con nodos `<INVENTORY>` y `<INVN_SBS>` utilizando los campos seleccionados por el usuario.
 - **Generación de Transfer Orders**: se aceptan archivos CSV/TXT con formato especial para crear XML de órdenes de transferencia. Se valida la estructura de las líneas tipo *Header* e *Item* y se consultan datos adicionales en Oracle.
-- **Configuración de mapeo de campos**: la interfaz permite seleccionar y ordenar los campos disponibles. Todas las configuraciones se almacenan en `config.json`.
-- **Selección de carpeta de salida y delimitador**: la ruta donde se almacenarán los XML generados y el delimitador a usar al leer los CSV se guarda en `config.json`.
-- **Conexión a Oracle**: los datos de conexión (host, puerto, servicio, usuario y contraseña) se mantienen en `config.json`. La aplicación permite probar la conexión antes de guardarla.
-- **Generador de SID**: soporta distintos modos para obtener `item_sid` y `style_sid` (por UPC, a partir de las descripciones o aleatorio). La configuración se guarda en `config.json`.
+
 - **Interfaz web**: se accede a la ruta `/` donde se muestran dos pestañas: *Inventory* y *Transfer Orders*. Cada pestaña contiene formularios para cargar el CSV, configurar campos y ejecutar la generación de XML.
 
 ## Endpoints relevantes
@@ -28,7 +25,7 @@ Esta aplicación es un backend escrito en **Python** con el framework **Flask** 
 
 - **Neptuno.py** – Script principal que define el servidor Flask y toda la lógica de negocio.
 - **Templates/** – Contiene las plantillas `index.html` y `home.html` que conforman la interfaz web.
-- **config.json** – Archivo único que contiene la conexión a Oracle, la ruta y delimitador de CSV, los catálogos de campos y las configuraciones de mapeo tanto para inventario como para Transfer Orders.
+
 
 ## Requisitos
 
