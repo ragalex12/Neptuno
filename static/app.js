@@ -1,14 +1,38 @@
 // Vanilla JS functions replacing previous jQuery based logic
 
 function q(sel) { return document.querySelector(sel); }
-function qa(sel){ return Array.from(document.querySelectorAll(sel)); }
+function qa(sel){
+  if (typeof sel === 'string') return Array.from(document.querySelectorAll(sel));
+  return Array.from(sel);
+}
 
 function toggleActive(e){ e.currentTarget.classList.toggle('active'); }
 
 function initSelectable(scope){
   qa(scope + ' .list-group-item').forEach(li=>{
     li.addEventListener('click', toggleActive);
+    li.setAttribute('draggable', 'true');
   });
+}
+
+function enableDnD(listSel){
+  const list = q(listSel);
+  if(!list) return;
+  list.addEventListener('dragstart', e=>{
+    if(e.target.matches('li')) e.target.classList.add('dragging');
+  });
+  list.addEventListener('dragend', e=>{
+    if(e.target.matches('li')) e.target.classList.remove('dragging');
+  });
+  list.addEventListener('dragover', e=>{
+    e.preventDefault();
+    const dragging = q('.dragging');
+    if(!dragging) return;
+    const after = Array.from(list.querySelectorAll('li:not(.dragging)'))
+      .find(li => e.clientY <= li.getBoundingClientRect().top + li.offsetHeight/2);
+    if(after) list.insertBefore(dragging, after); else list.appendChild(dragging);
+  });
+  list.addEventListener('drop', e=>{ e.preventDefault(); });
 }
 
 function filterInput(inputSel, listSel){
@@ -61,6 +85,8 @@ document.addEventListener('DOMContentLoaded', ()=>{
   if(q('#saveMapping')){
     initSelectable('#availableFields');
     initSelectable('#selectedFields');
+    enableDnD('#availableFields');
+    enableDnD('#selectedFields');
     filterInput('#search-available', '#availableFields');
     filterInput('#search-selected', '#selectedFields');
 
@@ -81,6 +107,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
   // ----- Transfer Orders Mapping -----
   if(q('#saveMappingTO')){
     ['#availableTOH','#selectedTOH','#availableTOI','#selectedTOI'].forEach(s=>initSelectable(s));
+    ['#availableTOH','#selectedTOH','#availableTOI','#selectedTOI'].forEach(enableDnD);
     filterInput('#search-available-to-h','#availableTOH');
     filterInput('#search-selected-to-h','#selectedTOH');
     filterInput('#search-available-to-i','#availableTOI');
@@ -121,9 +148,13 @@ document.addEventListener('DOMContentLoaded', ()=>{
   // ----- Browse output path -----
   if(q('#browseBtn')){
     q('#browseBtn').addEventListener('click', ()=>{
-      const current = q('#outputPath').value;
-      const ruta = prompt('Ingrese carpeta de salida', current);
-      if(ruta !== null){ q('#outputPath').value = ruta; }
+      fetch('/select_folder', {method:'POST'})
+        .then(r=>r.json())
+        .then(res=>{
+          if(res.ruta) q('#outputPath').value = res.ruta;
+          else alert(res.error||'No se seleccion\u00f3 carpeta');
+        })
+        .catch(()=>alert('Error al seleccionar carpeta'));
     });
   }
 

@@ -16,7 +16,7 @@ import logging
 from subprocess import CalledProcessError
 import hashlib, random, time, struct
 import xml.etree.ElementTree as ET
-from tkinter import Tk, filedialog
+
 from flask import Flask, jsonify, render_template, request
 import oracledb
 
@@ -51,10 +51,27 @@ DEFAULT_SID_CFG: Dict[str, str] = {"item_sid_mode": "upc", "style_sid_mode": "de
 
 # --- Utilidades JSON para archivo unificado ---
 def _read_config() -> dict:
+    """Leer config.json ignorando lineas de comentario"""
     try:
-        return json.loads(CONFIG_FILE.read_text("utf-8"))
+        text = CONFIG_FILE.read_text("utf-8")
     except FileNotFoundError:
         return {}
+
+    cleaned_lines = []
+    in_block = False
+    for line in text.splitlines():
+        stripped = line.strip()
+        if stripped.startswith("/*"):
+            in_block = True
+            continue
+        if stripped.endswith("*/"):
+            in_block = False
+            continue
+        if in_block or stripped.startswith("//") or stripped.startswith("#"):
+            continue
+        cleaned_lines.append(line)
+    cleaned = "\n".join(cleaned_lines)
+    return json.loads(cleaned)
 
 def _write_config(data: dict):
     CONFIG_FILE.write_text(json.dumps(data, indent=2), encoding="utf-8")
@@ -560,15 +577,26 @@ def save_csv_config():
 
 @app.route("/select_folder", methods=["POST"])
 def select_folder():
-    """Guardar carpeta de salida enviada por el cliente."""
-    data = request.get_json() or {}
-    carpeta = data.get("ruta")
+    """Mostrar diálogo local para elegir carpeta de salida y guardarla."""
+    script = Path(__file__).with_name("choose_dir.py")
+    try:
+        result = subprocess.run(
+            [sys.executable, str(script)], capture_output=True, text=True, timeout=30
+        )
+        if result.returncode != 0:
+            raise RuntimeError(result.stderr.strip())
+        carpeta = result.stdout.strip()
+    except Exception as exc:
+        return jsonify(error=f"No se pudo abrir el diálogo: {exc}"), 500
+
     if not carpeta:
-        return jsonify(error="Ruta no especificada"), 400
+        return jsonify(error="No se seleccionó carpeta"), 400
+
     try:
         Path(carpeta).mkdir(parents=True, exist_ok=True)
     except Exception as exc:
         return jsonify(error=f"No se pudo crear la carpeta: {exc}"), 400
+
     cfg = load_csv_cfg()
     cfg["ruta"] = carpeta
     save_csv_cfg(cfg)
