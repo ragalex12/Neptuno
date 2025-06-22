@@ -1,4 +1,5 @@
 {
+  // Configuración de la conexión a Oracle
   "database": {
     "tipo_conexion": "BELLAGIO",
     "servidor": "10.10.205.4",
@@ -7,14 +8,17 @@
     "usuario": "reportuser",
     "password": "report"
   },
+  // Preferencias de archivos CSV de entrada y salida
   "csv": {
     "ruta": "C:/Neptuno/Salida",
     "delimiter": ","
   },
+  // Opciones para generación de SID
   "sid_generator": {
     "item_sid_mode": "upc",
     "style_sid_mode": "desc1"
   },
+  // Definición de campos y mapping para Inventario
   "inventory": {
     "campos_maestros": [
       {
@@ -435,6 +439,7 @@
       }
     ]
   },
+  // Configuración y catálogo para Transfer Orders
   "transfer_orders": {
     "campos_maestros": [
       {
