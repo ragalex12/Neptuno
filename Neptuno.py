@@ -560,16 +560,19 @@ def save_csv_config():
 
 @app.route("/select_folder", methods=["POST"])
 def select_folder():
-    root = Tk()
-    root.withdraw()
-    carpeta = filedialog.askdirectory(title="Selecciona carpeta de salida")
-    root.destroy()
-    if carpeta:
-        cfg = load_csv_cfg()
-        cfg["ruta"] = carpeta
-        save_csv_cfg(cfg)
-        return jsonify(ruta=carpeta)
-    return jsonify(ruta=""), 204
+    """Guardar carpeta de salida enviada por el cliente."""
+    data = request.get_json() or {}
+    carpeta = data.get("ruta")
+    if not carpeta:
+        return jsonify(error="Ruta no especificada"), 400
+    try:
+        Path(carpeta).mkdir(parents=True, exist_ok=True)
+    except Exception as exc:
+        return jsonify(error=f"No se pudo crear la carpeta: {exc}"), 400
+    cfg = load_csv_cfg()
+    cfg["ruta"] = carpeta
+    save_csv_cfg(cfg)
+    return jsonify(ruta=carpeta)
 
 @app.route("/seleccionar_carpeta", methods=["POST"])
 def seleccionar_carpeta():
