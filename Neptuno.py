@@ -832,7 +832,7 @@ def generar():
     campos_plant = [c["rpro"] for c in plantilla_cfg]
     total_cols   = len(campos_plant)
 
-    # Metadatos de longitud máxima por campo (campos_maestros.json)
+    # Metadatos de longitud máxima por campo (catálogo en config/config.json)
     campos_meta = {c["rpro"]: c.get("len") for c in maestros()}
 
     # ---------- 3) Validaciones línea a línea ----------
