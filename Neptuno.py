@@ -67,7 +67,10 @@ def _read_config() -> dict:
         return {}
 
 def _write_config(data: dict):
-    CONFIG_FILE.write_text(json.dumps(data, indent=2, ensure_ascii=False), "utf-8")
+    CONFIG_DIR.mkdir(exist_ok=True)
+    CONFIG_FILE.write_text(
+        json.dumps(data, indent=2, ensure_ascii=False), "utf-8"
+    )
 
 def _load_section(keys: list[str], default):
     data = _read_config()
