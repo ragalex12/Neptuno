@@ -15,11 +15,9 @@ import xml.etree.ElementTree as ET
 from flask import send_file  # si quieres devolver directamente el XML
 from json import JSONDecodeError
 import pandas as pd
-import xml.etree.ElementTree as ET
 from flask import Flask, jsonify, render_template, request
 import oracledb
 from tkinter import Tk, filedialog
-import io              
 import logging
 from subprocess import CalledProcessError
 import hashlib, random, time, struct
