@@ -1,4 +1,31 @@
 {
   "app_name": "Neptuno",
-  "version": "1.0"
+  "version": "1.0",
+  "csv": {
+    "ruta": "D:\\Users\\ragal\\Documents\\GitHub\\Neptuno\\Salida",
+    "delimiter": ","
+  },
+  "database": {
+    "tipo_conexion": "BELLAGIO",
+    "servidor": "10.10.205.4",
+    "puerto": "1521",
+    "base_datos": "rproods",
+    "usuario": "reportuser",
+    "password": "report"
+  },
+  "sid_generator": {
+    "item_sid_mode": "upc",
+    "style_sid_mode": "desc1"
+  },
+  "transfer_orders": {
+    "campos_maestros": [],
+    "configuracion": {
+      "header": [],
+      "detail": []
+    }
+  },
+  "inventory": {
+    "campos_maestros": [],
+    "configuracion": []
+  }
 }
