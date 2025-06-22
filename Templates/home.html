@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neptuno Reloaded</title>
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- jQuery + jQuery-UI -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <link href="https://code.jquery.com/ui/1.13.2/themes/smoothness/jquery-ui.css" rel="stylesheet" />
+  <style>
+    body { background: #f5f7fb; }
+    .card { margin-bottom: 1.5rem; }
+    .list-box { min-height: 320px; overflow-y: auto; }
+    .arrow-btns .arrow-control { width:56px; height:44px; margin:4px 0; font-weight:700; }
+    .search-input::placeholder { font-size: .85rem; }
+  </style>
+</head>
+<body>
+  <div class="container-fluid mt-4">
+    <!-- Nav Tabs -->
+    <ul class="nav nav-tabs" id="mainTabs" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="inventory-tab" data-bs-toggle="tab" data-bs-target="#inventory" type="button" role="tab">Inventory</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="to-tab" data-bs-toggle="tab" data-bs-target="#to" type="button" role="tab">Transfer Orders</button>
+      </li>
+    </ul>
+
+    <!-- Tab Contents -->
+    <div class="tab-content" id="mainTabsContent">
+      <!-- INVENTORY TAB -->
+      <div class="tab-pane fade show active" id="inventory" role="tabpanel">
+        {% include 'index.html' %}
+      </div>
+
+      <!-- TRANSFER ORDERS TAB -->
+<div class="tab-pane fade" id="to" role="tabpanel">
+  <div class="row gy-4 mt-3">
+
+    <!-- 1) Generate Transfer Orders XML -->
+    <div class="col-12 col-md-6">
+      <div class="card shadow-sm rounded-4 border-0 mb-4">
+        <div class="card-header bg-primary text-white fw-bold rounded-top-4 fs-4">
+          Generate Transfer Orders XML
+        </div>
+        <div class="card-body">
+          <form id="generateFormTO" enctype="multipart/form-data">
+            <div class="mb-3">
+              <label class="form-label">Archivo CSV/TXT:</label>
+              <input type="file" name="archivo" accept=".csv,.txt"
+                     class="form-control" required id="csv_file_to" />
+            </div>
+            <button class="btn btn-secondary w-100" type="submit">
+              Generar XML TO
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2) Header Fields -->
+    <div class="col-12 col-md-6">
+      <div class="card shadow-sm rounded-4 border-0 mb-4">
+        <div class="card-header bg-primary text-white fw-bold rounded-top-4 fs-4">
+          Header Fields
+        </div>
+        <div class="card-body">
+          <div class="row mb-3">
+            <div class="col">
+              <input id="search-available-to-h" type="text"
+                     class="form-control search-input"
+                     placeholder="Search available…"/>
+            </div>
+            <div class="col">
+              <input id="search-selected-to-h" type="text"
+                     class="form-control search-input"
+                     placeholder="Search selected…"/>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Available Header Fields -->
+            <div class="col-5">
+              <ul id="availableTOH" class="list-group list-box">
+                {% set selected_h = plantilla_to.header | map(attribute='rpro') | list %}
+                {% for campo in maestros_to %}
+                  {% if campo.section == 'TO' and campo.rpro not in selected_h %}
+                    <li class="list-group-item list-group-item-action"
+                        data-rpro="{{ campo.rpro }}">
+                      {{ campo.visual }}
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            </div>
+            <!-- Flechas -->
+            <div class="col-2 d-flex flex-column align-items-center justify-content-center">
+              <button id="btn-add-to-h"    class="btn btn-primary mb-2">&gt;</button>
+              <button id="btn-remove-to-h" class="btn btn-danger">&lt;</button>
+            </div>
+            <!-- Selected Header Fields -->
+            <div class="col-5">
+              <ul id="selectedTOH" class="list-group list-box">
+                {% for campo in plantilla_to.header %}
+                  <li class="list-group-item list-group-item-action"
+                      data-rpro="{{ campo.rpro }}">
+                    {{ campo.visual }}
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3) Item Fields (nueva fila: primera columna vacía, segunda columna con Item Fields) -->
+    <div class="col-12 col-md-6"><!-- vacío para mantener la columna --></div>
+    <div class="col-12 col-md-6">
+      <div class="card shadow-sm rounded-4 border-0 mb-4">
+        <div class="card-header bg-primary text-white fw-bold rounded-top-4 fs-4">
+          Item Fields
+        </div>
+        <div class="card-body">
+          <div class="row mb-3">
+            <div class="col">
+              <input id="search-available-to-i" type="text"
+                     class="form-control search-input"
+                     placeholder="Search available…"/>
+            </div>
+            <div class="col">
+              <input id="search-selected-to-i" type="text"
+                     class="form-control search-input"
+                     placeholder="Search selected…"/>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Available Item Fields -->
+            <div class="col-5">
+              <ul id="availableTOI" class="list-group list-box">
+                {% set selected_i = plantilla_to.detail | map(attribute='rpro') | list %}
+                {% for campo in maestros_to %}
+                  {% if campo.section == 'INVN_BASE_ITEM' and campo.rpro not in selected_i %}
+                    <li class="list-group-item list-group-item-action"
+                        data-rpro="{{ campo.rpro }}">
+                      {{ campo.visual }}
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            </div>
+            <!-- Flechas -->
+            <div class="col-2 d-flex flex-column align-items-center justify-content-center">
+              <button id="btn-add-to-i"    class="btn btn-primary mb-2">&gt;</button>
+              <button id="btn-remove-to-i" class="btn btn-danger">&lt;</button>
+            </div>
+            <!-- Selected Item Fields -->
+            <div class="col-5">
+              <ul id="selectedTOI" class="list-group list-box">
+                {% for campo in plantilla_to.detail %}
+                  <li class="list-group-item list-group-item-action"
+                      data-rpro="{{ campo.rpro }}">
+                    {{ campo.visual }}
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4) Botón de Guardar -->
+    <div class="col-12 col-md-6 offset-md-6">
+      <button id="saveMappingTO" class="btn btn-success w-100">
+        Guardar Mapping TO
+      </button>
+    </div>
+
+  </div><!-- /.row -->
+</div><!-- /.tab-pane #to -->
+
+
+    <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    $(function(){
+      // 1) Eliminar duplicados iniciales
+      const selH = new Set($('#selectedTOH li').map((i,el)=>$(el).data('rpro')).get());
+      $('#availableTOH li').each(function(){
+        if(selH.has($(this).data('rpro'))) $(this).remove();
+      });
+      const selI = new Set($('#selectedTOI li').map((i,el)=>$(el).data('rpro')).get());
+      $('#availableTOI li').each(function(){
+        if(selI.has($(this).data('rpro'))) $(this).remove();
+      });
+
+      // 2) Drag & drop y selección exacta
+      $("#availableTOH, #selectedTOH, #availableTOI, #selectedTOI").sortable({
+        connectWith: ".list-group",
+        placeholder: "list-group-item list-group-item-secondary"
+      }).disableSelection();
+
+      // 3) Filtrar
+      function filterList(input, list) {
+        const term = $(input).val().toLowerCase();
+        $(list).children().each(function(){
+          $(this).toggle($(this).text().toLowerCase().includes(term));
+        });
+      }
+      $('#search-available-to-h').on('input', ()=>filterList('#search-available-to-h','#availableTOH'));
+      $('#search-selected-to-h').on('input', ()=>filterList('#search-selected-to-h','#selectedTOH'));
+      $('#search-available-to-i').on('input', ()=>filterList('#search-available-to-i','#availableTOI'));
+      $('#search-selected-to-i').on('input', ()=>filterList('#search-selected-to-i','#selectedTOI'));
+
+      // 4) Click para toggle active
+      $(document).on('click', '.list-group-item', function(){
+        $(this).toggleClass('active');
+      });
+
+      // 5) Flechas de movimiento
+      function moveItems(from, to) {
+        const items = $(from).children('.active');
+        $(to).append(items.clone());
+        items.remove();
+      }
+      $('#btn-add-to-h').click(()=>moveItems('#availableTOH','#selectedTOH'));
+      $('#btn-remove-to-h').click(()=>moveItems('#selectedTOH','#availableTOH'));
+      $('#btn-add-to-i').click(()=>moveItems('#availableTOI','#selectedTOI'));
+      $('#btn-remove-to-i').click(()=>moveItems('#selectedTOI','#availableTOI'));
+
+      // 6) Guardar Mapping TO
+      $('#saveMappingTO').click(function(){
+        const header = $('#selectedTOH li').map((i,el)=>$(el).data('rpro')).get();
+        const detail = $('#selectedTOI li').map((i,el)=>$(el).data('rpro')).get();
+        $.ajax({
+          url: '/guardar_config_to',
+          type: 'POST',
+          traditional: true,
+          data: { 'header[]': header, 'detail[]': detail },
+          success: function(res) {
+            if (res.ok) {
+              alert('Mapping TO guardado con éxito');
+            } else {
+              alert('Error al guardar Mapping TO:\n' + (res.error || 'no especificado'));
+            }
+          },
+          error: function() {
+            alert('Error al guardar Mapping TO');
+          }
+        });
+      });
+
+      // 7) Generar XML TO mediante AJAX
+      $('#generateFormTO').submit(function(e) {
+        e.preventDefault();
+        const form = new FormData(this);
+        $.ajax({
+          url: '/generar_to',
+          method: 'POST',
+          data: form,
+          processData: false,
+          contentType: false
+        })
+        .done(function(res) {
+          if (res.status === 'success') {
+            alert('XML TO generado en:\n' + res.path);
+          } else {
+            alert('Error al generar XML TO:\n' + (res.error || 'no especificado'));
+          }
+        })
+        .fail(function(xhr) {
+          alert('Error al generar XML TO:\n' + (xhr.responseJSON?.error || xhr.statusText));
+        })
+        .always(function() {
+          $('#csv_file_to').val('');
+        });
+      });
+    });
+  </script>
+</body>
+</html>

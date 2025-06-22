@@ -1,0 +1,1853 @@
+<?xml version='1.0' encoding='utf-8'?>
+<DOCUMENT>
+  <INVENTORYS>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423322569" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-011-125-160" attr="WHHBSMOK" siz="7.5" description2="TECHLOOM TRACER" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="36.5% TPU; 63.5% TEXTILE - OUTSOLE 64% EVA; 36% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="WHITE/HARBORGREY/SMOKE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423322576" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-011-125-160" attr="WHHBSMOK" siz="8" description2="TECHLOOM TRACER" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="36.5% TPU; 63.5% TEXTILE - OUTSOLE 64% EVA; 36% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="WHITE/HARBORGREY/SMOKE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423322583" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-011-125-160" attr="WHHBSMOK" siz="8.5" description2="TECHLOOM TRACER" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="36.5% TPU; 63.5% TEXTILE - OUTSOLE 64% EVA; 36% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="WHITE/HARBORGREY/SMOKE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423322590" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-011-125-160" attr="WHHBSMOK" siz="9" description2="TECHLOOM TRACER" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="36.5% TPU; 63.5% TEXTILE - OUTSOLE 64% EVA; 36% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="WHITE/HARBORGREY/SMOKE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423322606" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-011-125-160" attr="WHHBSMOK" siz="9.5" description2="TECHLOOM TRACER" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="36.5% TPU; 63.5% TEXTILE - OUTSOLE 64% EVA; 36% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="WHITE/HARBORGREY/SMOKE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423322613" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-011-125-160" attr="WHHBSMOK" siz="10" description2="TECHLOOM TRACER" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="36.5% TPU; 63.5% TEXTILE - OUTSOLE 64% EVA; 36% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="WHITE/HARBORGREY/SMOKE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423322620" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-011-125-160" attr="WHHBSMOK" siz="10.5" description2="TECHLOOM TRACER" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="36.5% TPU; 63.5% TEXTILE - OUTSOLE 64% EVA; 36% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="WHITE/HARBORGREY/SMOKE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423322637" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-011-125-160" attr="WHHBSMOK" siz="11" description2="TECHLOOM TRACER" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="36.5% TPU; 63.5% TEXTILE - OUTSOLE 64% EVA; 36% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="WHITE/HARBORGREY/SMOKE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840222868381" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-013-122-001" attr="BLKWHITE" siz="7.5" description2="TECHLOOM ZIPLINE" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="CORE" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/WHITE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840222868398" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-013-122-001" attr="BLKWHITE" siz="8" description2="TECHLOOM ZIPLINE" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="CORE" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/WHITE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840222868404" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-013-122-001" attr="BLKWHITE" siz="8.5" description2="TECHLOOM ZIPLINE" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="CORE" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/WHITE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840222868411" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-013-122-001" attr="BLKWHITE" siz="9" description2="TECHLOOM ZIPLINE" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="CORE" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/WHITE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840222868428" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-013-122-001" attr="BLKWHITE" siz="9.5" description2="TECHLOOM ZIPLINE" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="CORE" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/WHITE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840222868435" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-013-122-001" attr="BLKWHITE" siz="10" description2="TECHLOOM ZIPLINE" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="CORE" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/WHITE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840222868442" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-013-122-001" attr="BLKWHITE" siz="10.5" description2="TECHLOOM ZIPLINE" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="CORE" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/WHITE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840222868459" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-013-122-001" attr="BLKWHITE" siz="11" description2="TECHLOOM ZIPLINE" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="CORE" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/WHITE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423323092" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-013-125-114" attr="IVYMIDNT" siz="7.5" description2="TECHLOOM ZIPLINE" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/MIDNIGHT" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423323108" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-013-125-114" attr="IVYMIDNT" siz="8" description2="TECHLOOM ZIPLINE" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/MIDNIGHT" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423323115" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-013-125-114" attr="IVYMIDNT" siz="8.5" description2="TECHLOOM ZIPLINE" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/MIDNIGHT" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423323122" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-013-125-114" attr="IVYMIDNT" siz="9" description2="TECHLOOM ZIPLINE" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/MIDNIGHT" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423323139" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-013-125-114" attr="IVYMIDNT" siz="9.5" description2="TECHLOOM ZIPLINE" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/MIDNIGHT" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423323146" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-013-125-114" attr="IVYMIDNT" siz="10" description2="TECHLOOM ZIPLINE" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/MIDNIGHT" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423323153" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-013-125-114" attr="IVYMIDNT" siz="10.5" description2="TECHLOOM ZIPLINE" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/MIDNIGHT" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423323160" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-013-125-114" attr="IVYMIDNT" siz="11" description2="TECHLOOM ZIPLINE" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/MIDNIGHT" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423323221" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-013-125-122" attr="IVYSANDT" siz="7.5" description2="TECHLOOM ZIPLINE" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/SANDSTONE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423323238" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-013-125-122" attr="IVYSANDT" siz="8" description2="TECHLOOM ZIPLINE" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/SANDSTONE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423323245" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-013-125-122" attr="IVYSANDT" siz="8.5" description2="TECHLOOM ZIPLINE" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/SANDSTONE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423323252" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-013-125-122" attr="IVYSANDT" siz="9" description2="TECHLOOM ZIPLINE" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/SANDSTONE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423323269" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-013-125-122" attr="IVYSANDT" siz="9.5" description2="TECHLOOM ZIPLINE" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/SANDSTONE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423323276" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-013-125-122" attr="IVYSANDT" siz="10" description2="TECHLOOM ZIPLINE" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/SANDSTONE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423323283" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-013-125-122" attr="IVYSANDT" siz="10.5" description2="TECHLOOM ZIPLINE" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/SANDSTONE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423323290" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-013-125-122" attr="IVYSANDT" siz="11" description2="TECHLOOM ZIPLINE" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/SANDSTONE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840331350081" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-013-423-008" attr="BLKBLKBL" siz="7.5" description2="TECHLOOM ZIPLINE" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="APL EXCLUSIVE" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/BLACK/BLACK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840331350098" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-013-423-008" attr="BLKBLKBL" siz="8" description2="TECHLOOM ZIPLINE" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="APL EXCLUSIVE" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/BLACK/BLACK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840331350104" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-013-423-008" attr="BLKBLKBL" siz="8.5" description2="TECHLOOM ZIPLINE" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="APL EXCLUSIVE" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/BLACK/BLACK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840331350111" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-013-423-008" attr="BLKBLKBL" siz="9" description2="TECHLOOM ZIPLINE" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="APL EXCLUSIVE" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/BLACK/BLACK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840331350128" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-013-423-008" attr="BLKBLKBL" siz="9.5" description2="TECHLOOM ZIPLINE" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="APL EXCLUSIVE" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/BLACK/BLACK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840331350135" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-013-423-008" attr="BLKBLKBL" siz="10" description2="TECHLOOM ZIPLINE" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="APL EXCLUSIVE" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/BLACK/BLACK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840331350159" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-013-423-008" attr="BLKBLKBL" siz="11" description2="TECHLOOM ZIPLINE" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="APL EXCLUSIVE" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/BLACK/BLACK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840331350173" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-013-423-008" attr="BLKBLKBL" siz="12" description2="TECHLOOM ZIPLINE" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="APL EXCLUSIVE" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/BLACK/BLACK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423391879" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-015-424-002" attr="BLKWHITE" siz="7.5" description2="TECHLOOM DREAM" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="80.46% POLYESTER; 10% TPU; 7.92% SPANDEX; 1.62% NYLON  - OUTSOLE 64% EVA; 36&amp;#37" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="HOLIDAY 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/WHITE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423391886" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-015-424-002" attr="BLKWHITE" siz="8" description2="TECHLOOM DREAM" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="80.46% POLYESTER; 10% TPU; 7.92% SPANDEX; 1.62% NYLON  - OUTSOLE 64% EVA; 36&amp;#37" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="HOLIDAY 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/WHITE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423391893" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-015-424-002" attr="BLKWHITE" siz="8.5" description2="TECHLOOM DREAM" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="80.46% POLYESTER; 10% TPU; 7.92% SPANDEX; 1.62% NYLON  - OUTSOLE 64% EVA; 36&amp;#37" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="HOLIDAY 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/WHITE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423391909" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-015-424-002" attr="BLKWHITE" siz="9" description2="TECHLOOM DREAM" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="80.46% POLYESTER; 10% TPU; 7.92% SPANDEX; 1.62% NYLON  - OUTSOLE 64% EVA; 36&amp;#37" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="HOLIDAY 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/WHITE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423391916" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-015-424-002" attr="BLKWHITE" siz="9.5" description2="TECHLOOM DREAM" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="80.46% POLYESTER; 10% TPU; 7.92% SPANDEX; 1.62% NYLON  - OUTSOLE 64% EVA; 36&amp;#37" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="HOLIDAY 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/WHITE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423391923" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-015-424-002" attr="BLKWHITE" siz="10" description2="TECHLOOM DREAM" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="80.46% POLYESTER; 10% TPU; 7.92% SPANDEX; 1.62% NYLON  - OUTSOLE 64% EVA; 36&amp;#37" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="HOLIDAY 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/WHITE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423391930" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-015-424-002" attr="BLKWHITE" siz="10.5" description2="TECHLOOM DREAM" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="80.46% POLYESTER; 10% TPU; 7.92% SPANDEX; 1.62% NYLON  - OUTSOLE 64% EVA; 36&amp;#37" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="HOLIDAY 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/WHITE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423391947" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-015-424-002" attr="BLKWHITE" siz="11" description2="TECHLOOM DREAM" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="80.46% POLYESTER; 10% TPU; 7.92% SPANDEX; 1.62% NYLON  - OUTSOLE 64% EVA; 36&amp;#37" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="HOLIDAY 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/WHITE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423392012" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-015-424-002" attr="BLKBLKBL" siz="8" description2="TECHLOOM DREAM" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="80.46% POLYESTER; 10% TPU; 7.92% SPANDEX; 1.62% NYLON  - OUTSOLE 64% EVA; 36&amp;#37" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="HOLIDAY 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/BLACK/BLACK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423392029" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-015-424-002" attr="BLKBLKBL" siz="8.5" description2="TECHLOOM DREAM" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="80.46% POLYESTER; 10% TPU; 7.92% SPANDEX; 1.62% NYLON  - OUTSOLE 64% EVA; 36&amp;#37" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="HOLIDAY 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/BLACK/BLACK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423392036" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-015-424-002" attr="BLKBLKBL" siz="9" description2="TECHLOOM DREAM" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="80.46% POLYESTER; 10% TPU; 7.92% SPANDEX; 1.62% NYLON  - OUTSOLE 64% EVA; 36&amp;#37" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="HOLIDAY 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/BLACK/BLACK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423392043" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-015-424-002" attr="BLKBLKBL" siz="9.5" description2="TECHLOOM DREAM" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="80.46% POLYESTER; 10% TPU; 7.92% SPANDEX; 1.62% NYLON  - OUTSOLE 64% EVA; 36&amp;#37" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="HOLIDAY 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/BLACK/BLACK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423392050" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-015-424-002" attr="BLKBLKBL" siz="10" description2="TECHLOOM DREAM" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="80.46% POLYESTER; 10% TPU; 7.92% SPANDEX; 1.62% NYLON  - OUTSOLE 64% EVA; 36&amp;#37" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="HOLIDAY 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/BLACK/BLACK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423392067" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-015-424-002" attr="BLKBLKBL" siz="10.5" description2="TECHLOOM DREAM" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="80.46% POLYESTER; 10% TPU; 7.92% SPANDEX; 1.62% NYLON  - OUTSOLE 64% EVA; 36&amp;#37" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="HOLIDAY 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/BLACK/BLACK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423392074" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-015-424-002" attr="BLKBLKBL" siz="11" description2="TECHLOOM DREAM" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="80.46% POLYESTER; 10% TPU; 7.92% SPANDEX; 1.62% NYLON  - OUTSOLE 64% EVA; 36&amp;#37" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="HOLIDAY 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/BLACK/BLACK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423392098" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-015-424-002" attr="BLKBLKBL" siz="12" description2="TECHLOOM DREAM" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="80.46% POLYESTER; 10% TPU; 7.92% SPANDEX; 1.62% NYLON  - OUTSOLE 64% EVA; 36&amp;#37" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="HOLIDAY 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/BLACK/BLACK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840331392630" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-4-015-124-101" attr="IVORY" siz="7" description2="NOSTALGIA '87" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840331392647" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-4-015-124-101" attr="IVORY" siz="7.5" description2="NOSTALGIA '87" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840331392654" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-4-015-124-101" attr="IVORY" siz="8" description2="NOSTALGIA '87" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840331392661" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-4-015-124-101" attr="IVORY" siz="8.5" description2="NOSTALGIA '87" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840331392678" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-4-015-124-101" attr="IVORY" siz="9" description2="NOSTALGIA '87" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840331392685" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-4-015-124-101" attr="IVORY" siz="9.5" description2="NOSTALGIA '87" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840331392692" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-4-015-124-101" attr="IVORY" siz="10" description2="NOSTALGIA '87" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840331392715" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-4-015-124-101" attr="IVORY" siz="11" description2="NOSTALGIA '87" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423326741" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-4-015-125-146" attr="IVYMIDNT" siz="7.5" description2="NOSTALGIA '87" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/MIDNIGHT" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423326758" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-4-015-125-146" attr="IVYMIDNT" siz="8" description2="NOSTALGIA '87" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/MIDNIGHT" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423326765" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-4-015-125-146" attr="IVYMIDNT" siz="8.5" description2="NOSTALGIA '87" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/MIDNIGHT" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423326772" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-4-015-125-146" attr="IVYMIDNT" siz="9" description2="NOSTALGIA '87" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/MIDNIGHT" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423326789" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-4-015-125-146" attr="IVYMIDNT" siz="9.5" description2="NOSTALGIA '87" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/MIDNIGHT" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423326796" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-4-015-125-146" attr="IVYMIDNT" siz="10" description2="NOSTALGIA '87" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/MIDNIGHT" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423326802" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-4-015-125-146" attr="IVYMIDNT" siz="10.5" description2="NOSTALGIA '87" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/MIDNIGHT" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423326819" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-4-015-125-146" attr="IVYMIDNT" siz="11" description2="NOSTALGIA '87" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/MIDNIGHT" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423326994" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-4-015-125-214" attr="SNIVGUM" siz="7" description2="NOSTALGIA '87" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="SANDSTONE/IVORY/GUM" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423327007" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-4-015-125-214" attr="SNIVGUM" siz="7.5" description2="NOSTALGIA '87" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="SANDSTONE/IVORY/GUM" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423327014" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-4-015-125-214" attr="SNIVGUM" siz="8" description2="NOSTALGIA '87" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="SANDSTONE/IVORY/GUM" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423327021" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-4-015-125-214" attr="SNIVGUM" siz="8.5" description2="NOSTALGIA '87" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="SANDSTONE/IVORY/GUM" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423327038" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-4-015-125-214" attr="SNIVGUM" siz="9" description2="NOSTALGIA '87" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="SANDSTONE/IVORY/GUM" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423327045" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-4-015-125-214" attr="SNIVGUM" siz="9.5" description2="NOSTALGIA '87" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="SANDSTONE/IVORY/GUM" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423327052" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-4-015-125-214" attr="SNIVGUM" siz="10" description2="NOSTALGIA '87" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="SANDSTONE/IVORY/GUM" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423327069" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-4-015-125-214" attr="SNIVGUM" siz="10.5" description2="NOSTALGIA '87" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="SANDSTONE/IVORY/GUM" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840222883032" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-122-001" attr="BLKWHITE" siz="5.5" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="CORE" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/WHITE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840222883049" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-122-001" attr="BLKWHITE" siz="6" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="CORE" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/WHITE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840222883056" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-122-001" attr="BLKWHITE" siz="6.5" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="CORE" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/WHITE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840222883063" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-122-001" attr="BLKWHITE" siz="7" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="CORE" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/WHITE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840222883070" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-122-001" attr="BLKWHITE" siz="7.5" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="CORE" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/WHITE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840222883087" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-122-001" attr="BLKWHITE" siz="8" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="CORE" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/WHITE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840222883094" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-122-001" attr="BLKWHITE" siz="8.5" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="CORE" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/WHITE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840222883100" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-122-001" attr="BLKWHITE" siz="9" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="CORE" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/WHITE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423330908" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-125-114" attr="IVYMIDNT" siz="5.5" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/MIDNIGHT" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423330915" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-125-114" attr="IVYMIDNT" siz="6" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/MIDNIGHT" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423330922" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-125-114" attr="IVYMIDNT" siz="6.5" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/MIDNIGHT" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423330939" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-125-114" attr="IVYMIDNT" siz="7" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/MIDNIGHT" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423330946" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-125-114" attr="IVYMIDNT" siz="7.5" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/MIDNIGHT" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423330953" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-125-114" attr="IVYMIDNT" siz="8" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/MIDNIGHT" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423330960" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-125-114" attr="IVYMIDNT" siz="8.5" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/MIDNIGHT" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423330977" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-125-114" attr="IVYMIDNT" siz="9" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/MIDNIGHT" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423331165" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-125-122" attr="IVYSANDT" siz="5.5" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/SANDSTONE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423331172" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-125-122" attr="IVYSANDT" siz="6" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/SANDSTONE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423331189" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-125-122" attr="IVYSANDT" siz="6.5" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/SANDSTONE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423331196" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-125-122" attr="IVYSANDT" siz="7" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/SANDSTONE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423331202" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-125-122" attr="IVYSANDT" siz="7.5" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/SANDSTONE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423331219" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-125-122" attr="IVYSANDT" siz="8" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/SANDSTONE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423331226" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-125-122" attr="IVYSANDT" siz="8.5" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/SANDSTONE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423331233" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-125-122" attr="IVYSANDT" siz="9" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/SANDSTONE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423331424" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-125-255" attr="TNALIVRY" siz="5.5" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="TAN/ALABASTER/IVORY" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423331431" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-125-255" attr="TNALIVRY" siz="6" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="TAN/ALABASTER/IVORY" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423331448" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-125-255" attr="TNALIVRY" siz="6.5" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="TAN/ALABASTER/IVORY" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423331455" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-125-255" attr="TNALIVRY" siz="7" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="TAN/ALABASTER/IVORY" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423331462" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-125-255" attr="TNALIVRY" siz="7.5" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="TAN/ALABASTER/IVORY" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423331479" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-125-255" attr="TNALIVRY" siz="8" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="TAN/ALABASTER/IVORY" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423331486" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-125-255" attr="TNALIVRY" siz="8.5" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="TAN/ALABASTER/IVORY" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423331493" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-125-255" attr="TNALIVRY" siz="9" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="TAN/ALABASTER/IVORY" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423331561" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-125-288" attr="OTIVSNML" siz="6" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="OATSILK/IVORY/SANDSTONE/MULTI" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423331578" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-125-288" attr="OTIVSNML" siz="6.5" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="OATSILK/IVORY/SANDSTONE/MULTI" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423331585" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-125-288" attr="OTIVSNML" siz="7" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="OATSILK/IVORY/SANDSTONE/MULTI" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423331592" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-125-288" attr="OTIVSNML" siz="7.5" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="OATSILK/IVORY/SANDSTONE/MULTI" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423331608" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-125-288" attr="OTIVSNML" siz="8" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="OATSILK/IVORY/SANDSTONE/MULTI" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423331615" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-125-288" attr="OTIVSNML" siz="8.5" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="OATSILK/IVORY/SANDSTONE/MULTI" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423331622" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-125-288" attr="OTIVSNML" siz="9" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="OATSILK/IVORY/SANDSTONE/MULTI" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423331646" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-125-288" attr="OTIVSNML" siz="10" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="OATSILK/IVORY/SANDSTONE/MULTI" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840290340413" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-322-101" attr="IVORY" siz="5.5" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="FALL 2022" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840290340420" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-322-101" attr="IVORY" siz="6" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="FALL 2022" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840290340437" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-322-101" attr="IVORY" siz="6.5" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="FALL 2022" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840290340444" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-322-101" attr="IVORY" siz="7" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="FALL 2022" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840290340451" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-322-101" attr="IVORY" siz="7.5" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="FALL 2022" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840290340468" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-322-101" attr="IVORY" siz="8" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="FALL 2022" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840290340475" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-322-101" attr="IVORY" siz="8.5" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="FALL 2022" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840290340482" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-322-101" attr="IVORY" siz="9" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="FALL 2022" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840331356137" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-423-008" attr="BLKBLKBL" siz="5.5" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="APL EXCLUSIVE" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/BLACK/BLACK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840331356144" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-423-008" attr="BLKBLKBL" siz="6" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="APL EXCLUSIVE" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/BLACK/BLACK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840331356151" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-423-008" attr="BLKBLKBL" siz="6.5" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="APL EXCLUSIVE" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/BLACK/BLACK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840331356168" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-423-008" attr="BLKBLKBL" siz="7" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="APL EXCLUSIVE" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/BLACK/BLACK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840331356175" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-423-008" attr="BLKBLKBL" siz="7.5" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="APL EXCLUSIVE" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/BLACK/BLACK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840331356182" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-423-008" attr="BLKBLKBL" siz="8" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="APL EXCLUSIVE" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/BLACK/BLACK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840331356199" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-423-008" attr="BLKBLKBL" siz="8.5" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="APL EXCLUSIVE" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/BLACK/BLACK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840331356205" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-013-423-008" attr="BLKBLKBL" siz="9" description2="TECHLOOM ZIPLINE" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="84% POLYESTER; 16% NYLON - OUTSOLE 100% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="APL EXCLUSIVE" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="BLACK/BLACK/BLACK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423332339" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-015-125-121" attr="IVYTAN" siz="5.5" description2="TECHLOOM DREAM" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="90% TEXTILE; 10% SYNTHETIC - OUTSOLE 64% EVA; 36% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/TAN" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423332346" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-015-125-121" attr="IVYTAN" siz="6" description2="TECHLOOM DREAM" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="90% TEXTILE; 10% SYNTHETIC - OUTSOLE 64% EVA; 36% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/TAN" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423332353" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-015-125-121" attr="IVYTAN" siz="6.5" description2="TECHLOOM DREAM" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="90% TEXTILE; 10% SYNTHETIC - OUTSOLE 64% EVA; 36% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/TAN" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423332360" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-015-125-121" attr="IVYTAN" siz="7" description2="TECHLOOM DREAM" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="90% TEXTILE; 10% SYNTHETIC - OUTSOLE 64% EVA; 36% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/TAN" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423332377" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-015-125-121" attr="IVYTAN" siz="7.5" description2="TECHLOOM DREAM" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="90% TEXTILE; 10% SYNTHETIC - OUTSOLE 64% EVA; 36% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/TAN" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423332384" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-015-125-121" attr="IVYTAN" siz="8" description2="TECHLOOM DREAM" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="90% TEXTILE; 10% SYNTHETIC - OUTSOLE 64% EVA; 36% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/TAN" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423332391" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-015-125-121" attr="IVYTAN" siz="8.5" description2="TECHLOOM DREAM" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="90% TEXTILE; 10% SYNTHETIC - OUTSOLE 64% EVA; 36% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/TAN" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423332407" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-015-125-121" attr="IVYTAN" siz="9" description2="TECHLOOM DREAM" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="90% TEXTILE; 10% SYNTHETIC - OUTSOLE 64% EVA; 36% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/TAN" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423316186" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-015-424-101" attr="IVYBNBLK" siz="5.5" description2="TECHLOOM DREAM" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="80.46% POLYESTER; 10% TPU; 7.92% SPANDEX; 1.62% NYLON  - OUTSOLE 64% EVA; 36&amp;#37" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="HOLIDAY 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/BONE/BLACK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423316193" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-015-424-101" attr="IVYBNBLK" siz="6" description2="TECHLOOM DREAM" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="80.46% POLYESTER; 10% TPU; 7.92% SPANDEX; 1.62% NYLON  - OUTSOLE 64% EVA; 36&amp;#37" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="HOLIDAY 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/BONE/BLACK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423316209" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-015-424-101" attr="IVYBNBLK" siz="6.5" description2="TECHLOOM DREAM" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="80.46% POLYESTER; 10% TPU; 7.92% SPANDEX; 1.62% NYLON  - OUTSOLE 64% EVA; 36&amp;#37" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="HOLIDAY 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/BONE/BLACK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423316216" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-015-424-101" attr="IVYBNBLK" siz="7" description2="TECHLOOM DREAM" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="80.46% POLYESTER; 10% TPU; 7.92% SPANDEX; 1.62% NYLON  - OUTSOLE 64% EVA; 36&amp;#37" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="HOLIDAY 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/BONE/BLACK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423316223" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-015-424-101" attr="IVYBNBLK" siz="7.5" description2="TECHLOOM DREAM" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="80.46% POLYESTER; 10% TPU; 7.92% SPANDEX; 1.62% NYLON  - OUTSOLE 64% EVA; 36&amp;#37" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="HOLIDAY 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/BONE/BLACK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423316230" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-015-424-101" attr="IVYBNBLK" siz="8" description2="TECHLOOM DREAM" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="80.46% POLYESTER; 10% TPU; 7.92% SPANDEX; 1.62% NYLON  - OUTSOLE 64% EVA; 36&amp;#37" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="HOLIDAY 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/BONE/BLACK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423316247" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-015-424-101" attr="IVYBNBLK" siz="8.5" description2="TECHLOOM DREAM" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="80.46% POLYESTER; 10% TPU; 7.92% SPANDEX; 1.62% NYLON  - OUTSOLE 64% EVA; 36&amp;#37" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="HOLIDAY 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/BONE/BLACK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423316254" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-2-015-424-101" attr="IVYBNBLK" siz="9" description2="TECHLOOM DREAM" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="80.46% POLYESTER; 10% TPU; 7.92% SPANDEX; 1.62% NYLON  - OUTSOLE 64% EVA; 36&amp;#37" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="HOLIDAY 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/BONE/BLACK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840331393316" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-4-015-124-102" attr="IVYGUM" siz="5.5" description2="NOSTALGIA '87" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/GUM" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840331393323" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-4-015-124-102" attr="IVYGUM" siz="6" description2="NOSTALGIA '87" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/GUM" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840331393330" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-4-015-124-102" attr="IVYGUM" siz="6.5" description2="NOSTALGIA '87" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/GUM" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840331393347" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-4-015-124-102" attr="IVYGUM" siz="7" description2="NOSTALGIA '87" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/GUM" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840331393354" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-4-015-124-102" attr="IVYGUM" siz="7.5" description2="NOSTALGIA '87" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/GUM" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840331393361" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-4-015-124-102" attr="IVYGUM" siz="8" description2="NOSTALGIA '87" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/GUM" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840331393378" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-4-015-124-102" attr="IVYGUM" siz="8.5" description2="NOSTALGIA '87" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/GUM" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840331393385" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-4-015-124-102" attr="IVYGUM" siz="9" description2="NOSTALGIA '87" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/GUM" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423335033" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-4-015-125-191" attr="IVYPRDSK" siz="5.5" description2="NOSTALGIA '87" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/PARISIANDUSK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423335040" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-4-015-125-191" attr="IVYPRDSK" siz="6" description2="NOSTALGIA '87" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/PARISIANDUSK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423335057" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-4-015-125-191" attr="IVYPRDSK" siz="6.5" description2="NOSTALGIA '87" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/PARISIANDUSK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423335064" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-4-015-125-191" attr="IVYPRDSK" siz="7" description2="NOSTALGIA '87" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/PARISIANDUSK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423335071" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-4-015-125-191" attr="IVYPRDSK" siz="7.5" description2="NOSTALGIA '87" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/PARISIANDUSK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423335088" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-4-015-125-191" attr="IVYPRDSK" siz="8" description2="NOSTALGIA '87" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/PARISIANDUSK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423335095" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-4-015-125-191" attr="IVYPRDSK" siz="8.5" description2="NOSTALGIA '87" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/PARISIANDUSK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423335101" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="2-4-015-125-191" attr="IVYPRDSK" siz="9" description2="NOSTALGIA '87" dcs_code="01 02 00" vend_code="APL" description3="MUJER" description4="CALZADO DE DAMA" long_description="88% LEATHER; 12% PU - OUTSOLE 100% RUBBER" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="IVORY/PARISIANDUSK" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    </INVENTORYS>
+  </DOCUMENT>

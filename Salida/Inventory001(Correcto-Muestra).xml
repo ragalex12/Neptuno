@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<DOCUMENT>
+  <INVENTORYS>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423322569" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-011-125-160" attr="WHHBSMOK" siz="7.5" description2="TECHLOOM TRACER" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="36.5% TPU; 63.5% TEXTILE - OUTSOLE 64% EVA; 36% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="WHITE/HARBORGREY/SMOKE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423322576" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-011-125-160" attr="WHHBSMOK" siz="8" description2="TECHLOOM TRACER" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="36.5% TPU; 63.5% TEXTILE - OUTSOLE 64% EVA; 36% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="WHITE/HARBORGREY/SMOKE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423322583" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-011-125-160" attr="WHHBSMOK" siz="8.5" description2="TECHLOOM TRACER" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="36.5% TPU; 63.5% TEXTILE - OUTSOLE 64% EVA; 36% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="WHITE/HARBORGREY/SMOKE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    <INVENTORY>
+      <INVN_STYLE style_sid="STYLE_SID_AUTOGEN" />
+      <INVN item_sid="ITEM_SID_AUTOGEN" upc="840423322590" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-011-125-160" attr="WHHBSMOK" siz="9" description2="TECHLOOM TRACER" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="36.5% TPU; 63.5% TEXTILE - OUTSOLE 64% EVA; 36% RB" tax_name="TAXABLE" regional="1">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2025" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="WHITE/HARBORGREY/SMOKE" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+      </INVENTORY>
+    </INVENTORYS>
+  </DOCUMENT>

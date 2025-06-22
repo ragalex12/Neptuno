@@ -1,0 +1,8 @@
+{
+  "tipo_conexion": "BELLAGIO",
+  "servidor": "10.10.205.4",
+  "puerto": "1521",
+  "base_datos": "rproods",
+  "usuario": "reportuser",
+  "password": "report"
+}

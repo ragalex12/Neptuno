@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<DOCUMENT>
+  <INVENTORYS>
+    <INVENTORY>
+      <INVN_STYLE style_sid="-6439802138014251008" />
+      <INVN item_sid="26893546322425" upc="840423322569" />
+      <INVN_SBS sbs_no="001" modified_date="2025-05-05T08:50:22" currency_id="1" currency_name="DOLLARS" flag="0" kit_type="0" max_disc_perc1="100" max_disc_perc2="100" print_tag="1" active="1" cms="0" description1="1-2-011-125-160" attr="WHHBSMOK" siz="7.5" description2="TECHLOOM TRACER" dcs_code="02 02 00" vend_code="APL" description3="HOMBRE" description4="CALZADO DE CABALLERO" long_description="36.5% TPU; 63.5% TEXTILE - OUTSOLE 64% EVA; 36% RB" tax_name="TAXABLE" regional="1" ALU="" Text1="" Text2="" Text3="" Text4="" Text5="" Text6="" Text7="" Text8="" Text9="" Text10="" fst_price="" markdown_price="" use_qty_decimals="" unorderable="" qty_per_case="" cost="" ext_flag=""  image1="" image2="" image3="" image4="" image5="" image6="" image7="" image8="" image9="" image10="">
+        <INVN_SBS_SUPPLS>
+          <INVN_SBS_SUPPL udf_no="2" udf_value="" />
+          <INVN_SBS_SUPPL udf_no="3" udf_value="" />
+          <INVN_SBS_SUPPL udf_no="4" udf_value="" />
+          <INVN_SBS_SUPPL udf_no="5" udf_value="" />
+          <INVN_SBS_SUPPL udf_no="6" udf_value="SPRING 2020" />
+          <INVN_SBS_SUPPL udf_no="7" udf_value="SPRING 2022" />
+          <INVN_SBS_SUPPL udf_no="8" udf_value="SPRING 2023" />
+          <INVN_SBS_SUPPL udf_no="9" udf_value="SPRING 2019" />
+          <INVN_SBS_SUPPL udf_no="10" udf_value="SPRING 2024" />
+          <INVN_SBS_SUPPL udf_no="11" udf_value="SPRING 2050" />
+          <INVN_SBS_SUPPL udf_no="12" udf_value="SPRING 2014" />
+          <INVN_SBS_SUPPL udf_no="13" udf_value="SPRING 2013" />
+          <INVN_SBS_SUPPL udf_no="14" udf_value="SPRING 2009" />
+          <INVN_SBS_SUPPL udf_no="15" udf_value="WHITE/HARBORGREY/SMOKE" />
+          <INVN_SBS_SUPPL udf_no="16" udf_value="MALASIA" />
+          <INVN_SBS_SUPPL udf_no="17" udf_value="PANAMA" />
+          <INVN_SBS_SUPPL udf_no="18" udf_value="INDIA" />
+          <INVN_SBS_SUPPL udf_no="19" udf_value="USA" />
+          <INVN_SBS_SUPPL udf_no="20" udf_value="COSTA RICA" />
+          <INVN_SBS_SUPPL udf_no="21" udf_value="CHINA" />
+          </INVN_SBS_SUPPLS>
+        </INVN_SBS>
+    </INVENTORY>
+  </INVENTORYS>
+</DOCUMENT>

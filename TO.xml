@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+  <TO>
+    <TO to_sid="-8585474834528729088" sbs_no="1" store_no="1" to_no="" to_type="0" use_vat="0" created_date="2023-10-13T11:13:37" modified_date="2023-10-13T11:13:37" cms="1" held="1" active="1" controller="1" orig_controller="1" note="" notes1="" notes2="" empl_sbs_no="1" empl_name="SYSADMIN" createdby_sbs_no="1" createdby_empl_name="SYSADMIN" modifiedby_sbs_no="1" modifiedby_empl_name="SYSADMIN" trans_reason="" doc_reason_code="">
+      <TO_ITEMS>
+        <TO_ITEM item_pos="1" item_sid="244173413581823" price="159.95" cost="84" tax_code="0" tax_perc="" />
+          <INVN_BASE_ITEM item_sid="244173413581823" upc="8056713158455" style_sid="-6387659724362340923" dcs_code="01 02 00" vend_code="AUTRY" use_qty_decimals="0" tax_code="0" />
+            <TO_QTYS>
+              <TO_QTY store_no="1" ord_qty="1" rcvd_qty="0" />
+            <TO_QTYS>
+        </TO_ITEM>
+        <TO_ITEM item_pos="2" item_sid="244173413582584" price="159.95" cost="84" tax_code="0" tax_perc="" />
+          <INVN_BASE_ITEM item_sid="244173413582584" upc="8056713158473" style_sid="-6387659724362340923" dcs_code="01 02 00" vend_code="AUTRY" use_qty_decimals="0" tax_code="0" />
+              <TO_QTYS>
+                <TO_QTY store_no="1" ord_qty="2" rcvd_qty="0" />
+              <TO_QTYS>
+        </TO_ITEM>
+        <TO_ITEM item_pos="3" item_sid="244173413582591" price="159.95" cost="84" tax_code="0" tax_perc="" />
+          <INVN_BASE_ITEM item_sid="244173413582591" upc="8056713158024" style_sid="-6387659724362340923" dcs_code="01 02 00" vend_code="AUTRY" use_qty_decimals="0" tax_code="0" />
+              <TO_QTYS>
+                <TO_QTY store_no="5" ord_qty="2" rcvd_qty="0" />
+              <TO_QTYS>
+        </TO_ITEM>
+        <TO_ITEM item_pos="4" item_sid="244173413582846" price="159.95" cost="84" tax_code="0" tax_perc="" />
+        <INVN_BASE_ITEM item_sid="244173413582846" upc="8056713158721" style_sid="-6387659724362340923" dcs_code="01 02 00" vend_code="AUTRY" use_qty_decimals="0" tax_code="0" />
+              <TO_QTYS>
+                <TO_QTY store_no="3" ord_qty="2" rcvd_qty="0" />
+              <TO_QTYS>
+        </TO_ITEM>
+      </TO_ITEMS>
+  </TO>
+</DOCUMENT>

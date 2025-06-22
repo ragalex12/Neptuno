@@ -1,0 +1,105 @@
+[
+  {
+    "visual": "Subsidiary",
+    "rpro": "sbs_no",
+    "section": "TO",
+    "len": 5
+  },
+  {
+    "visual": "Store",
+    "rpro": "store_no",
+    "section": "TO",
+    "len": 5
+  },
+  {
+    "visual": "Number",
+    "rpro": "to_no",
+    "section": "TO",
+    "len": 8
+  },
+  {
+    "visual": "VAT",
+    "rpro": "use_vat",
+    "section": "TO",
+    "len": 1
+  },
+  {
+    "visual": "created date",
+    "rpro": "created_date",
+    "section": "TO",
+    "len": "Fecha"
+  },
+  {
+    "visual": "active date",
+    "rpro": "activate_date",
+    "section": "TO",
+    "len": "Fecha"
+  },
+  {
+    "visual": "associate",
+    "rpro": "createdby_empl_name",
+    "section": "TO",
+    "len": 10
+  },
+  {
+    "visual": "Note",
+    "rpro": "note",
+    "section": "TO",
+    "len": 255
+  },
+  {
+    "visual": "Notes 1",
+    "rpro": "notes1",
+    "section": "TO",
+    "len": 30
+  },
+  {
+    "visual": "Notes 2",
+    "rpro": "notes2",
+    "section": "TO",
+    "len": 30
+  },
+  {
+    "visual": "reason code",
+    "rpro": "doc_reason_code",
+    "section": "TO",
+    "len": 5
+  },
+  {
+    "visual": "transfer reason",
+    "rpro": "trans_reason",
+    "section": "TO",
+    "len": 10
+  },
+  {
+    "visual": "Upc",
+    "rpro": "upc",
+    "section": "INVN_BASE_ITEM",
+    "len": 18
+  },
+  {
+    "visual": "Qty",
+    "rpro": "ord_qty",
+    "section": "INVN_BASE_ITEM",
+    "len": 10
+  },
+  {
+    "visual": "Precio",
+    "rpro": "price",
+    "section": "INVN_BASE_ITEM",
+    "len": 10
+  },
+  {
+   "visual": "RecordTypeH",
+   "rpro": "record_type_h",
+   "section": "TO",
+   "len": 1
+ },
+ {
+   "visual": "RecordTypeI",
+   "rpro": "record_type_i",
+   "section": "INVN_BASE_ITEM",
+   "len": 1
+ }
+
+]

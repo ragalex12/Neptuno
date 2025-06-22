@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neptuno – Field Mapping Configuration</title>
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- jQuery + jQuery-UI -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <link href="https://code.jquery.com/ui/1.13.2/themes/smoothness/jquery-ui.css" rel="stylesheet" />
+  <style>
+    body { background: #f5f7fb; }
+    .mapping-card  { max-width: 900px; margin: 40px auto; }
+    .generate-card { position: absolute; left: 20px; top: 40px; width: 350px; }
+    .db-card       { position: absolute; left: 20px; top: 480px; width: 350px; }
+    .sid-card      { position: absolute; left: 1750px; top: 40px; width: 350px; }
+    .list-box      { min-height: 320px; overflow-y: auto; }
+    .list-group-item { cursor: grab; user-select: none; }
+    .arrow-btns .arrow-control { width:56px; height:44px; margin:4px 0; font-weight:700; }
+    .search-input::placeholder { font-size: .85rem; }
+  </style>
+</head>
+<body>
+    <!-- Generate XML -->
+    <div class="generate-card">
+      <div class="card shadow-sm rounded-4 border-0">
+        <div class="card-header bg-secondary text-white fw-semibold rounded-top-4">Generate XML</div>
+        <div class="card-body">
+          <form id="generateForm" enctype="multipart/form-data">
+            <div class="mb-3">
+              <label class="form-label">Archivo CSV:</label>
+              <input type="file" name="archivo" accept=".csv,.txt" class="form-control" required id="csv_file" />
+            </div>
+  
+            <button class="btn btn-primary w-100" type="submit">Generar XML</button>
+  
+            <div class="mb-3 input-group mt-3">
+              <input type="text" id="outputPath" name="output_path"
+                     class="form-control" value="{{ csv_cfg.ruta }}" readonly />
+              <button class="btn btn-outline-primary" id="browseBtn"
+                      type="button">Browse…</button>
+            </div>
+            
+            <!-- Selector Delimitador justo antes de Save Config -->
+            <div class="mb-3">
+              <label class="form-label">Delimitador CSV:</label>
+              <select id="csv-delimiter" name="delimiter" class="form-select">
+                <option value="," {% if csv_cfg.delimiter == ',' %}selected{% endif %}>, (Comma)</option>
+                <option value=";" {% if csv_cfg.delimiter == ';' %}selected{% endif %}>; (Semicolon)</option>
+                <option value="|" {% if csv_cfg.delimiter == '|' %}selected{% endif %}>| (Pipe)</option>
+              </select>
+            </div>
+            
+            <button type="button" id="saveCsvConfig"
+                    class="btn btn-outline-secondary w-100 mb-3">
+              Save Config
+            </button>
+          </form>
+        </div>  <!-- cierra card-body -->
+      </div>    <!-- cierra card -->
+    </div>      <!-- cierra generate-card -->
+ 
+
+  <!-- Database Connection -->
+  <div class="db-card">
+    <div class="card shadow-sm rounded-4 border-0">
+      <div class="card-header bg-secondary text-white fw-semibold rounded-top-4">Database Connection</div>
+      <div class="card-body">
+        <form id="dbConfigForm">
+          <div class="mb-3">
+            <label class="form-label">Tipo Conexion</label>
+            <input type="text" class="form-control" name="tipo_conexion"
+                   value="{{ db_cfg.tipo_conexion or '' }}" readonly />
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Servidor</label>
+            <input type="text" class="form-control" name="servidor"
+                   value="{{ db_cfg.servidor or '' }}" placeholder="10.10.205.4" required />
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Puerto</label>
+            <input type="text" class="form-control" name="puerto"
+                   value="{{ db_cfg.puerto or '' }}" placeholder="1521" required />
+          </div>
+          <div class="mb-3">
+            <label class="form-label">BaseDatos</label>
+            <input type="text" class="form-control" name="base_datos"
+                   value="{{ db_cfg.base_datos or '' }}" placeholder="rproods" required />
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Usuario</label>
+            <input type="text" class="form-control" name="usuario"
+                   value="{{ db_cfg.usuario or '' }}" placeholder="reportuser" required />
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Password</label>
+            <input type="password" class="form-control" name="password"
+                   value="{{ db_cfg.password or '' }}" placeholder="report" required />
+          </div>
+          <button type="submit"   class="btn btn-primary w-100">Save Connection</button>
+          <button type="button"   id="testConnection" class="btn btn-secondary w-100 mt-2">Test Connection</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- SID Generator Configuration -->
+  <div class="sid-card">
+    <div class="card shadow-sm rounded-4 border-0">
+      <div class="card-header bg-info text-white fw-semibold rounded-top-4">SID Generator Configuration</div>
+      <div class="card-body">
+        <form id="sidConfigForm">
+          <div class="mb-3">
+            <label class="form-label">Modo Item SID</label>
+            <select name="item_sid_mode" class="form-select">
+              <option value="upc">UPC</option>
+              <option value="random">Aleatorio</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Modo Style SID</label>
+            <select name="style_sid_mode" class="form-select">
+              <option value="desc1">Description1</option>
+              <option value="both">Description1 + Description2</option>
+              <option value="random">Aleatorio</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-info w-100">Guardar Configuración</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Field Mapping Configuration -->
+  <div class="mapping-card">
+    <div class="card shadow-sm rounded-4 border-0">
+      <div class="card-header bg-primary text-white fw-semibold rounded-top-4">Field Mapping Configuration</div>
+      <div class="card-body">
+        <div class="row mb-3">
+          <div class="col"><input id="search-available" type="text" class="form-control search-input" placeholder="Search available fields…"/></div>
+          <div class="col"><input id="search-selected"  type="text" class="form-control search-input" placeholder="Search selected fields…"/></div>
+        </div>
+        <div class="row">
+          <!-- Available Fields -->
+          <div class="col-5">
+            <div class="border rounded-3 p-2 list-box">
+              <ul id="availableFields" class="list-group">
+                {% set selected_rpros = plantilla|map(attribute='rpro')|list %}
+                {% for campo in maestros %}
+                  {% if campo.rpro not in selected_rpros %}
+                    <li class="list-group-item" data-rpro="{{ campo.rpro }}">{{ campo.visual }}</li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+          <!-- Arrow Buttons & Save Mapping -->
+          <div class="col-2 d-flex justify-content-center">
+            <div class="arrow-btns d-flex flex-column align-items-center">
+              <button id="btn-add"      class="btn btn-primary arrow-control"  title="Add selected">&gt;</button>
+              <button id="btn-addAll"   class="btn btn-primary arrow-control"  title="Add all">&gt;&gt;</button>
+              <button id="btn-remove"   class="btn btn-danger arrow-control"   title="Remove selected">&lt;</button>
+              <button id="btn-removeAll"class="btn btn-danger arrow-control"   title="Remove all">&lt;&lt;</button>
+              <button id="btn-up"       class="btn btn-secondary arrow-control" title="Move up">&#8593;</button>
+              <button id="btn-down"     class="btn btn-secondary arrow-control" title="Move down">&#8595;</button>
+              <button id="saveMapping"  class="btn btn-success w-100 mt-3">Save Mapping</button>
+            </div>
+          </div>
+          <!-- Selected Fields -->
+          <div class="col-5">
+            <div class="border rounded-3 p-2 list-box">
+              <ul id="selectedFields" class="list-group">
+                {% for campo in plantilla %}
+                  <li class="list-group-item" data-rpro="{{ campo.rpro }}">{{ campo.visual }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    $(function(){
+      // Eliminar duplicados al cargar
+      const sel = new Set($('#selectedFields li').map((i,el)=>$(el).data('rpro')).get());
+      $('#availableFields li').each(function(){
+        if(sel.has($(this).data('rpro'))) $(this).remove();
+      });
+    });
+    // Drag & drop
+    $("#availableFields, #selectedFields").sortable({
+      connectWith: ".list-group",
+      placeholder: "list-group-item list-group-item-secondary"
+    }).disableSelection();
+    // Filtrar
+    function filterList(input, list) {
+      const term = $(input).val().toLowerCase();
+      $(list).children().each(function(){
+        $(this).toggle($(this).text().toLowerCase().includes(term));
+      });
+    }
+    $('#search-available').on('input', ()=>filterList('#search-available','#availableFields'));
+    $('#search-selected').on('input', ()=>filterList('#search-selected','#selectedFields'));
+    // Botones de flecha
+    function moveItems(from, to, all){
+      const items = all ?
+        $(from).children() :
+        $(from).children('.active');
+      $(to).append(items.clone()); items.remove();
+    }
+    $('#btn-add').click(()=>moveItems('#availableFields','#selectedFields', false));
+    $('#btn-addAll').click(()=>moveItems('#availableFields','#selectedFields', true));
+    $('#btn-remove').click(()=>moveItems('#selectedFields','#availableFields', false));
+    $('#btn-removeAll').click(()=>moveItems('#selectedFields','#availableFields', true));
+    $('#btn-up').click(()=>{ $('#selectedFields .active').each(function(){
+        const p = $(this).prev(); if(p.length) $(this).insertBefore(p);
+    });});
+    $('#btn-down').click(()=>{ $($('#selectedFields .active').get().reverse()).each(function(){
+        const n=$(this).next(); if(n.length) $(this).insertAfter(n);
+    });});
+    $(document).on('click','.list-group-item', function(){ $(this).toggleClass('active'); });
+    // Save Mapping
+    $('#saveMapping').click(()=>{
+      const campos = $('#selectedFields li').map((i,el)=>$(el).data('rpro')).get();
+      $.post('/guardar_config', {'campos[]': campos}, ()=>alert('Mapping saved'));
+    });
+    // Browse output path
+    $('#browseBtn').click(()=>{
+      $.post('/seleccionar_carpeta', {}, d=>{
+        if(d.ruta) $('#outputPath').val(d.ruta);
+      });
+    });
+    // Save CSV Config
+    $('#saveCsvConfig').click(()=>{
+      const delim = $('#csv-delimiter').val();
+      const ruta  = $('#outputPath').val();
+      $.ajax({
+        url: '/save_csv_config',
+        method: 'POST',
+        contentType: 'application/json',
+        data: JSON.stringify({ delimiter: delim, ruta: ruta })
+      })
+      .done(()=>{ alert('Configuración guardada correctamente'); })
+      .fail(xhr=>{ alert(xhr.responseJSON?.error || 'Error al guardar configuración'); });
+    });
+    // Generate XML
+    //$('#generateForm').submit(function(e){
+    //  e.preventDefault();
+    //  const form = new FormData(this);
+    //  $.ajax({
+    //    url: '/generar',
+    //    method: 'POST',
+    //    data: form,
+    //    processData: false,
+    //    contentType: false
+    //  })
+    //  .done(res=>{ alert('XML generado en:\n'+res.path); })
+    //  .fail(xhr=>{ alert(xhr.responseJSON?.error||'Error desconocido'); });
+    //});
+    
+    // Generate XML
+    $('#generateForm').submit(function(e){
+      e.preventDefault();
+      const form = new FormData(this);
+      $.ajax({
+        url: '/generar',
+        method: 'POST',
+        data: form,
+        processData: false,
+        contentType: false
+      })
+      .done(res => {
+        alert('XML generado en:\n' + res.path);
+      })
+      .fail(xhr => {
+        alert(xhr.responseJSON?.error || 'Error desconocido');
+      })
+      .always(() => {
+        // Limpia el file‐input para forzar nueva selección
+        $('#csv_file').val('');
+      });
+    });
+
+    // Save DB Config
+    $('#dbConfigForm').submit(function(e){
+      e.preventDefault();
+      $.post('/save_connection', $(this).serialize())
+        .done(res=>{
+          if(res.ok){ alert('Datos Guardados'); location.reload(); }
+          else{ alert('Error: '+res.error); }
+        })
+        .fail(()=>alert('Error al guardar conexión'));
+    });
+    // Test DB Connection
+    $('#testConnection').click(()=>{
+      $.post('/test_connection', $('#dbConfigForm').serialize())
+        .done(res=>{
+          alert(res.message);
+        }).fail(()=>alert('Error de conexión'));
+    });
+    // SID Config
+    $('#sidConfigForm').submit(function(e){
+      e.preventDefault();
+      const data = {
+        item_sid_mode: $(this).find('[name="item_sid_mode"]').val(),
+        style_sid_mode: $(this).find('[name="style_sid_mode"]').val()
+      };
+      $.ajax({
+        url: '/sid-config',
+        method: 'POST',
+        contentType: 'application/json',
+        data: JSON.stringify(data)
+      })
+      .done(()=>alert('SID Configuración guardada'))
+      .fail(xhr=>alert(xhr.responseJSON?.error||'Error al guardar SID config'));
+    });
+  </script>
+</body>
+</html>

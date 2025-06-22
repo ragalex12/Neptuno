@@ -1,0 +1,46 @@
+{
+  "header": [
+    {
+      "rpro": "record_type_h",
+      "visual": "RecordTypeH",
+      "pos": 0
+    },
+    {
+      "rpro": "sbs_no",
+      "visual": "Subsidiary",
+      "pos": 1
+    },
+    {
+      "rpro": "store_no",
+      "visual": "Store",
+      "pos": 2
+    },
+    {
+      "rpro": "to_no",
+      "visual": "Number",
+      "pos": 3
+    }
+  ],
+  "detail": [
+    {
+      "rpro": "record_type_i",
+      "visual": "RecordTypeI",
+      "pos": 0
+    },
+    {
+      "rpro": "upc",
+      "visual": "Upc",
+      "pos": 1
+    },
+    {
+      "rpro": "ord_qty",
+      "visual": "Qty",
+      "pos": 2
+    },
+    {
+      "rpro": "price",
+      "visual": "Precio",
+      "pos": 3
+    }
+  ]
+}
