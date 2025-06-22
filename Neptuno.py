@@ -44,6 +44,7 @@ oracledb.init_oracle_client(lib_dir=lib_dir)
 
 # --- Rutas de configuración ---
 BASE            = Path(__file__).resolve().parent
+CFG_DIR         = BASE / "config"
 CFG_USR         = BASE / "configuracion.json"
 CFG_MAS         = BASE / "campos_maestros.json"
 CFG_OUT         = BASE / "ruta_descarga.json"    # {'ruta':..., 'delimiter':...}
@@ -52,6 +53,7 @@ SID_CFG_FILE    = BASE / "sid_generator.json"
 TPL_DIR         = BASE / "Templates"
 CFG_TO          = BASE / "configuracion_to.json"
 CFG_MAS_TO      = BASE / "campos_maestros_to.json"
+APP_CFG         = CFG_DIR / "config.json"
 
 DEFAULT_SID_CFG: Dict[str, str] = {"item_sid_mode": "upc", "style_sid_mode": "desc1"}
 
@@ -80,6 +82,12 @@ def load_sid_cfg() -> Dict[str, str]:
 
 def save_sid_cfg(cfg: Dict[str, str]):
     _save(SID_CFG_FILE, cfg)
+
+def load_app_cfg() -> Dict[str, Any]:
+    return _load(APP_CFG, {})
+
+def save_app_cfg(cfg: Dict[str, Any]):
+    _save(APP_CFG, cfg)
 
 def db_cfg() -> Dict[str, Any]:
     return _load(CFG_DB, {})
