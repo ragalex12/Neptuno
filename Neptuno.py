@@ -11,17 +11,21 @@ from pathlib import Path
 from typing import Any, Dict, List
 from datetime import datetime
 import csv
-import xml.etree.ElementTree as ET
-from flask import send_file  # si quieres devolver directamente el XML
-from json import JSONDecodeError
-import pandas as pd
-from flask import Flask, jsonify, render_template, request
-import oracledb
-from tkinter import Tk, filedialog
+
 import logging
 from subprocess import CalledProcessError
 import hashlib, random, time, struct
+import xml.etree.ElementTree as ET
+
+from flask import Flask, jsonify, render_template, request
+import oracledb
+
 _ONE_E18 = 1_000_000_000_000_000_000
+
+BASE = Path(__file__).resolve().parent
+CONFIG_FILE = BASE / "config.json"
+
+app = Flask(__name__)
 
 
 
@@ -42,27 +46,35 @@ oracledb.init_oracle_client(lib_dir=lib_dir)
 
 
 
-# Mantener constantes para compatibilidad con nombres anteriores
-CFG_USR      = CONFIG_FILE
-CFG_MAS      = CONFIG_FILE
-CFG_OUT      = CONFIG_FILE
-CFG_DB       = CONFIG_FILE
-SID_CFG_FILE = CONFIG_FILE
-CFG_TO       = CONFIG_FILE
-CFG_MAS_TO   = CONFIG_FILE
-
 DEFAULT_SID_CFG: Dict[str, str] = {"item_sid_mode": "upc", "style_sid_mode": "desc1"}
 
 
 # --- Utilidades JSON para archivo unificado ---
 def _read_config() -> dict:
+    """Leer config.json ignorando lineas de comentario"""
     try:
-        return json.loads(CONFIG_FILE.read_text("utf-8"))
+        text = CONFIG_FILE.read_text("utf-8")
     except FileNotFoundError:
         return {}
 
-def _write_config(data: dict):
+    cleaned_lines = []
+    in_block = False
+    for line in text.splitlines():
+        stripped = line.strip()
+        if stripped.startswith("/*"):
+            in_block = True
+            continue
+        if stripped.endswith("*/"):
+            in_block = False
+            continue
+        if in_block or stripped.startswith("//") or stripped.startswith("#"):
+            continue
+        cleaned_lines.append(line)
+    cleaned = "\n".join(cleaned_lines)
+    return json.loads(cleaned)
 
+def _write_config(data: dict):
+    CONFIG_FILE.write_text(json.dumps(data, indent=2), encoding="utf-8")
 
 def _load_section(keys: list[str], default):
     data = _read_config()
@@ -93,8 +105,20 @@ def save_csv_cfg(cfg: Dict[str, Any]):
 def load_sid_cfg() -> Dict[str, str]:
     return _load_section(["sid_generator"], DEFAULT_SID_CFG)
 
+
 def save_sid_cfg(cfg: Dict[str, str]):
+    """Persistir configuracion del generador de SID."""
     _save_section(["sid_generator"], cfg)
+
+
+def db_cfg() -> Dict[str, Any]:
+    return _load_section(["database"], {})
+
+
+def maestros() -> List[Dict[str, Any]]:
+    return _load_section(["inventory", "campos_maestros"], [])
+
+
 
 def plantilla() -> List[Dict[str, Any]]:
     data = _load_section(["inventory", "configuracion"], [])
@@ -526,7 +550,7 @@ def guardar_config_to():
         })
 
     # 5) Guardo la configuración completa
-
+    config = {"header": header_list, "detail": detail_list}
     _save_section(["transfer_orders", "configuracion"], config)
 
     return jsonify(ok=True)
@@ -553,16 +577,22 @@ def save_csv_config():
 
 @app.route("/select_folder", methods=["POST"])
 def select_folder():
-    root = Tk()
-    root.withdraw()
-    carpeta = filedialog.askdirectory(title="Selecciona carpeta de salida")
-    root.destroy()
-    if carpeta:
-        cfg = load_csv_cfg()
-        cfg["ruta"] = carpeta
-        save_csv_cfg(cfg)
-        return jsonify(ruta=carpeta)
-    return jsonify(ruta=""), 204
+
+    except Exception as exc:
+        return jsonify(error=f"No se pudo abrir el diálogo: {exc}"), 500
+
+    if not carpeta:
+        return jsonify(error="No se seleccionó carpeta"), 400
+
+    try:
+        Path(carpeta).mkdir(parents=True, exist_ok=True)
+    except Exception as exc:
+        return jsonify(error=f"No se pudo crear la carpeta: {exc}"), 400
+
+    cfg = load_csv_cfg()
+    cfg["ruta"] = carpeta
+    save_csv_cfg(cfg)
+    return jsonify(ruta=carpeta)
 
 @app.route("/seleccionar_carpeta", methods=["POST"])
 def seleccionar_carpeta():
@@ -623,7 +653,15 @@ def sid_config_post():
 @app.route("/guardar_config", methods=["POST"])
 def guardar_config():
     campos = request.form.getlist("campos[]")
-    cat = {c["rpro"]: c for c in maestros()}
+    catalogo = {c["rpro"]: c for c in maestros()}
+    nueva = []
+    for idx, rpro in enumerate(campos):
+        m = catalogo.get(rpro, {})
+        nueva.append({
+            "rpro": rpro,
+            "visual": m.get("visual", rpro),
+            "pos": idx
+        })
 
     _save_section(["inventory", "configuracion"], nueva)
     return jsonify(ok=True)
